@@ -315,3 +315,18 @@ body {
     font-weight: 700;
     cursor: pointer;
 }
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.lang-select {
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}

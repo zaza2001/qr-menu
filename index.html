@@ -15,12 +15,22 @@
         <header class="header">
             <div class="restaurant-info">
                 <h1 class="logo">Gourmet</h1>
-                <span class="table-badge"><i class="fa-solid fa-utensils"></i> მაგიდა #4</span>
+                <span class="table-badge"><i class="fa-solid fa-utensils"></i> <span id="tableText">მაგიდა #4</span></span>
             </div>
-            <button class="cart-btn" id="cartBtn">
-                <i class="fa-solid fa-basket-shopping"></i>
-                <span class="cart-count" id="cartCount">0</span>
-            </button>
+            
+            <div class="header-right">
+                <!-- Language Selector -->
+                <select id="langSelect" class="lang-select">
+                    <option value="ka">GE</option>
+                    <option value="en">EN</option>
+                    <option value="ru">RU</option>
+                </select>
+
+                <button class="cart-btn" id="cartBtn">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+            </div>
         </header>
 
         <!-- Search Bar -->
@@ -54,7 +64,7 @@
     <div class="cart-modal" id="cartModal">
         <div class="cart-content">
             <div class="cart-header">
-                <h2>თქვენი შეკვეთა</h2>
+                <h2 id="cartTitle">თქვენი შეკვეთა</h2>
                 <button class="close-btn" id="closeCart">&times;</button>
             </div>
             <div class="cart-items" id="cartItems">
@@ -62,7 +72,7 @@
             </div>
             <div class="cart-footer">
                 <div class="total-price">
-                    <span>სულ:</span>
+                    <span id="totalText">სულ:</span>
                     <span id="totalAmount">0.00 ₾</span>
                 </div>
                 <button class="checkout-btn" id="checkoutBtn">შეკვეთის გაგზავნა</button>
