@@ -307,3 +307,56 @@ closeCart.addEventListener('click', () => cartModal.classList.remove('open'));
 
 // საწყისი ჩატვირთვა
 changeAppLanguage('ka');
+// ტელეგრამის ბოტის მონაცემები
+const TELEGRAM_BOT_TOKEN = '8668919731:AAG2D0G_BGaxuCVbk6cdsoriuxY-aldcfT4';
+const TELEGRAM_CHAT_ID = '7033349411';
+
+document.getElementById('checkoutBtn').addEventListener('click', () => {
+    if (cart.length === 0) {
+        alert("კალათა ცარიელია!");
+        return;
+    }
+
+    // შეკვეთის ტექსტის აწყობა
+    let message = `<b>🚨 ახალი შეკვეთა!</b>\n`;
+    message += `<b>📌 მაგიდა:</b> #4\n\n`;
+    message += `<b>🛒 შეკვეთილი კერძები:</b>\n`;
+
+    let totalSum = 0;
+    cart.forEach(item => {
+        const itemLangData = item[currentLang] || item['ka'];
+        const itemTotal = item.price * item.quantity;
+        totalSum += itemTotal;
+        message += `• ${itemLangData.title} x ${item.quantity} - ${itemTotal.toFixed(2)} ₾\n`;
+    });
+
+    message += `\n<b>💰 სულ გადასახდელი: ${totalSum.toFixed(2)} ₾</b>`;
+
+    // Telegram API-ზე გაგზავნა
+    fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            chat_id: TELEGRAM_CHAT_ID,
+            text: message,
+            parse_mode: 'HTML'
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.ok) {
+            alert("შეკვეთა წარმატებით გაიგზავნა!");
+            cart = []; // კალათის გასუფთავება
+            updateCartUI();
+            cartModal.classList.remove('open');
+        } else {
+            alert("შეცდომა შეკვეთის გაგზავნისას.");
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert("ქსელური შეცდომა.");
+    });
+});
