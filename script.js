@@ -113,37 +113,37 @@ const menuData = [
 
     // --- სალათები (SALADS) ---
     {
-        id: 8, category: "salads", price: 9.00, image: "MENU FOTO/1 SALADS/1.jpg",
+        id: 8, category: "salads", price: 9.00, image: "MENU FOTO/2 SALADS/1.jpg",
         ka: { title: "სალათი კიტრი-პომიდვრის", desc: "კიტრი, პომიდორი, მწვანილი, ხახვი" },
         en: { title: "Vegetable salad", desc: "Cucumbers, tomatoes, herbs, onions" },
         ru: { title: "Овощной салат", desc: "Огурцы, помидоры, зелень, лук" }
     },
     {
-        id: 9, category: "salads", price: 11.00, image: "MENU FOTO/1 SALADS/2.jpg",
+        id: 9, category: "salads", price: 11.00, image: "MENU FOTO/2 SALADS/2.jpg",
         ka: { title: "სალათი კიტრი-პომიდვრის ნიგვზით", desc: "კიტრი, პომიდორი, მწვანილი, ხახვი, ნიგოზი" },
         en: { title: "Vegetable salad with nuts", desc: "Cucumbers, tomatoes, herbs, onions, walnuts" },
         ru: { title: "Овощной салат с орехами", desc: "Огурцы, помидоры, зелень, лук, грецкий орех" }
     },
     {
-        id: 10, category: "salads", price: 8.00, image: "MENU FOTO/1 SALADS/3.jpg",
+        id: 10, category: "salads", price: 8.00, image: "MENU FOTO/2 SALADS/3.jpg",
         ka: { title: "მწვანე სალათი", desc: "სალათის ფურცლები, კიტრი, მწვანე ხახვი, ზეთისხილი" },
         en: { title: "Green salad", desc: "Lettuce, cucumber, green onion, olive oil" },
         ru: { title: "Зеленый салат", desc: "Листья салата, огурец, зеленый лук, маслины" }
     },
     {
-        id: 11, category: "salads", price: 15.00, image: "MENU FOTO/1 SALADS/4.jpg",
+        id: 11, category: "salads", price: 15.00, image: "MENU FOTO/2 SALADS/4.jpg",
         ka: { title: "სალათი ქართული", desc: "კიტრი, პომიდორი, სალათის ფურცლები, ხახვი, სულგუნი, ნიგოზი" },
         en: { title: "Georgian Salad", desc: "Cucumber, tomato, lettuce, onions, sulguni, walnuts" },
         ru: { title: "Салат Грузинский", desc: "Огурцы, помидоры, салат, лук, сулугуни, грецкий орех" }
     },
     {
-        id: 12, category: "salads", price: 14.00, image: "MENU FOTO/1 SALADS/5.jpg",
+        id: 12, category: "salads", price: 14.00, image: "MENU FOTO/2 SALADS/5.jpg",
         ka: { title: "სალათი ქათმის", desc: "ქათმის ფილე, ბულგარული, ხახვი, მაიონეზი" },
         en: { title: "Chicken Salad", desc: "Chicken breasts, peppers, onions, mayonnaise" },
         ru: { title: "Куриный салат", desc: "Куриное филе, болг. перец, лук, майонез" }
     },
     {
-        id: 13, category: "salads", price: 15.00, image: "MENU FOTO/1 SALADS/6.jpg",
+        id: 13, category: "salads", price: 15.00, image: "MENU FOTO/2 SALADS/6.jpg",
         ka: { title: "სალათი ტიფლისი", desc: "ქათმის ფილე, სულგუნი, პომიდორი, სალათის ფურცლები, მაიონეზი" },
         en: { title: "Tiflisi Salad", desc: "Chicken breasts, sulguni, tomato, lettuce, mayonnaise" },
         ru: { title: "Салат Тифлиси", desc: "Куриное филе, сулугуни, помидор, салат, майонез" }
