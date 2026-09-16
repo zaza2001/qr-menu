@@ -12,11 +12,15 @@ const translations = {
             cold: "ცივი კერძები",
             salads: "სალათები",
             soups: "წვნიანი კერძები",
+            steak: "სტეიკი",
             hot: "ცხელი კერძები",
             pastry: "ცომეული",
             khinkali: "ხინკალი",
             fish: "თევზეული",
             sides: "გარნირი",
+            breakfest: "საუზმე",
+            desserts: "დესერტი",
+            pizza: "პიცა",
             sauces: "სოუსი",
             drinks: "გამაგრილებელი სასმელები"
         }
@@ -32,12 +36,16 @@ const translations = {
             all: "All",
             cold: "Cold Dishes",
             salads: "Salads",
+            steak: "Steak",
             soups: "Soups",
             hot: "Hot Dishes",
             pastry: "Pastry",
             khinkali: "Khinkali",
             fish: "Fish",
             sides: "Side Dishes",
+            breakfest: "Breakfest",
+            pizza: "pizza",
+            desserts: "Desserts",
             sauces: "Sauces",
             drinks: "Cold Drinks"
         }
@@ -55,10 +63,14 @@ const translations = {
             salads: "Салаты",
             soups: "Супы",
             hot: "Горячие блюда",
+            steak: "ыевпщук"б
             pastry: "Выпечка",
             khinkali: "Хинкали",
             fish: "Рыбные блюда",
             sides: "Гарниры",
+            breakfest: "аава",
+            pizza: "фывфыв",
+            desserts: "прр",
             sauces: "Соусы",
             drinks: "Прохладительные напитки"
         }
