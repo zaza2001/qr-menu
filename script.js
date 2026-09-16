@@ -12,16 +12,16 @@ const translations = {
             cold: "ცივი კერძები",
             salads: "სალათები",
             soups: "წვნიანი კერძები",
-            steak: "სტეიკი",
             hot: "ცხელი კერძები",
+            steak: "სტეიკი",
             pastry: "ცომეული",
             khinkali: "ხინკალი",
             fish: "თევზეული",
             sides: "გარნირი",
-            breakfest: "საუზმე",
-            desserts: "დესერტი",
+            breakfast: "საუზმე",
             pizza: "პიცა",
             sauces: "სოუსი",
+            desserts: "დესერტი",
             drinks: "გამაგრილებელი სასმელები"
         }
     },
@@ -36,17 +36,17 @@ const translations = {
             all: "All",
             cold: "Cold Dishes",
             salads: "Salads",
-            steak: "Steak",
             soups: "Soups",
             hot: "Hot Dishes",
+            steak: "Steak",
             pastry: "Pastry",
             khinkali: "Khinkali",
             fish: "Fish",
             sides: "Side Dishes",
-            breakfest: "Breakfest",
-            pizza: "pizza",
-            desserts: "Desserts",
+            breakfast: "Breakfast",
+            pizza: "Pizza",
             sauces: "Sauces",
+            desserts: "Desserts",
             drinks: "Cold Drinks"
         }
     },
@@ -63,20 +63,19 @@ const translations = {
             salads: "Салаты",
             soups: "Супы",
             hot: "Горячие блюда",
-            steak: "ыевпщук",
+            steak: "Стейк",
             pastry: "Выпечка",
             khinkali: "Хинкали",
             fish: "Рыбные блюда",
             sides: "Гарниры",
-            breakfest: "аава",
-            pizza: "фывфыв",
-            desserts: "прр",
+            breakfast: "Завтрак",
+            pizza: "Пицца",
             sauces: "Соусы",
+            desserts: "Десерты",
             drinks: "Прохладительные напитки"
         }
     }
 };
-
 // 2. კერძების სრული ბაზა 3-ვე ენის მხარდაჭერით
 const menuData = [
     // --- ცივი კერძები (COLD DISHES) ---
@@ -421,19 +420,19 @@ const menuData = [
 
     // --- საუზმე (BREAKFAST) ---
     {
-        id: 55, category: "breakfest", price: 24.00, image: "MENU FOTO/9 BREAKFAST/1.jpg",
+        id: 55, category: "breakfast", price: 24.00, image: "MENU FOTO/9 BREAKFAST/1.jpg",
         ka: { title: "საუზმე მიქსი", desc: "კვერცხი, ყველი, ბოსტნეული, კარტოფილი, ქათმის ფილე" },
         en: { title: "Breakfast mix", desc: "Eggs, cheese, vegetables, potatoes, chicken breasts" },
         ru: { title: "Завтрак микс", desc: "Яйцо, сыр, овощи, картофель, куриное филе" }
     },
     {
-        id: 56, category: "breakfest", price: 11.00, image: "MENU FOTO/9 BREAKFAST/2.jpg",
+        id: 56, category: "breakfast", price: 11.00, image: "MENU FOTO/9 BREAKFAST/2.jpg",
         ka: { title: "ომლეტი", desc: "ომლეტი" },
         en: { title: "Omlet", desc: "Omelette" },
         ru: { title: "Омлет", desc: "Омлет" }
     },
     {
-        id: 57, category: "breakfest", price: 9.00, image: "MENU FOTO/9 BREAKFAST/3.jpg",
+        id: 57, category: "breakfast", price: 9.00, image: "MENU FOTO/9 BREAKFAST/3.jpg",
         ka: { title: "გლაზუნია", desc: "ერბოკვერცხი" },
         en: { title: "Glazunia (Egg)", desc: "Fried eggs" },
         ru: { title: "Глазунья", desc: "Яичница глазунья" }
