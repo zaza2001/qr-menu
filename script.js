@@ -63,7 +63,7 @@ const translations = {
             salads: "Салаты",
             soups: "Супы",
             hot: "Горячие блюда",
-            steak: "ыевпщук"б
+            steak: "ыевпщук",
             pastry: "Выпечка",
             khinkali: "Хинкали",
             fish: "Рыбные блюда",
