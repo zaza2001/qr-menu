@@ -46,11 +46,15 @@
             <button class="category-btn" data-category="salads">სალათები</button>
             <button class="category-btn" data-category="soups">წვნიანი კერძები</button>
             <button class="category-btn" data-category="hot">ცხელი კერძები</button>
+            <button class="category-btn" data-category="steak">სტეიკი</button>
             <button class="category-btn" data-category="pastry">ცომეული</button>
             <button class="category-btn" data-category="khinkali">ხინკალი</button>
             <button class="category-btn" data-category="fish">თევზეული</button>
             <button class="category-btn" data-category="sides">გარნირი</button>
+            <button class="category-btn" data-category="breakfast">საუზმე</button>
+            <button class="category-btn" data-category="pizza">პიცა</button>
             <button class="category-btn" data-category="sauces">სოუსი</button>
+            <button class="category-btn" data-category="desserts">დესერტი</button>
             <button class="category-btn" data-category="drinks">გამაგრილებელი სასმელები</button>
         </div>
 
@@ -71,11 +75,22 @@
                 <!-- კალათის ელემენტები -->
             </div>
             <div class="cart-footer">
-                <div class="total-price">
-                    <span id="totalText">სულ:</span>
-                    <span id="totalAmount">0.00 ₾</span>
-                </div>
-                <button class="checkout-btn" id="checkoutBtn">შეკვეთის გაგზავნა</button>
+                <div class="cart-footer">
+    <div class="price-row">
+        <span>ქვეჯამი:</span>
+        <span id="subtotalAmount">0.00 ₾</span>
+    </div>
+    <div class="price-row">
+        <span>Tax (10%):</span>
+        <span id="taxAmount">0.00 ₾</span>
+    </div>
+    <div class="price-row total-row">
+        <span>სულ:</span>
+        <span id="totalAmount">0.00 ₾</span>
+    </div>
+    <button class="checkout-btn" id="checkoutBtn">შეკვეთის გაგზავნა</button>
+</div>
+               
             </div>
         </div>
     </div>
