@@ -409,19 +409,19 @@ const menuData = [
 
     // --- საუზმე (BREAKFAST) ---
     {
-        id: 55, category: "hot", price: 24.00, image: "MENU FOTO/9 BREAKFAST/1.jpg",
+        id: 55, category: "breakfest", price: 24.00, image: "MENU FOTO/9 BREAKFAST/1.jpg",
         ka: { title: "საუზმე მიქსი", desc: "კვერცხი, ყველი, ბოსტნეული, კარტოფილი, ქათმის ფილე" },
         en: { title: "Breakfast mix", desc: "Eggs, cheese, vegetables, potatoes, chicken breasts" },
         ru: { title: "Завтрак микс", desc: "Яйцо, сыр, овощи, картофель, куриное филе" }
     },
     {
-        id: 56, category: "hot", price: 11.00, image: "MENU FOTO/9 BREAKFAST/2.jpg",
+        id: 56, category: "breakfest", price: 11.00, image: "MENU FOTO/9 BREAKFAST/2.jpg",
         ka: { title: "ომლეტი", desc: "ომლეტი" },
         en: { title: "Omlet", desc: "Omelette" },
         ru: { title: "Омлет", desc: "Омлет" }
     },
     {
-        id: 57, category: "hot", price: 9.00, image: "MENU FOTO/9 BREAKFAST/3.jpg",
+        id: 57, category: "breakfest", price: 9.00, image: "MENU FOTO/9 BREAKFAST/3.jpg",
         ka: { title: "გლაზუნია", desc: "ერბოკვერცხი" },
         en: { title: "Glazunia (Egg)", desc: "Fried eggs" },
         ru: { title: "Глазунья", desc: "Яичница глазунья" }
