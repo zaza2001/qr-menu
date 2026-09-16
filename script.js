@@ -151,37 +151,37 @@ const menuData = [
 
     // --- წვნიანი კერძები (SOUPS) ---
     {
-        id: 14, category: "soups", price: 14.00, image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=300",
+        id: 14, category: "soups", price: 14.00, image: "MENU FOTO/3 SOUPS/1.jpg",
         ka: { title: "ხარჩო", desc: "საქონლის ხორცი, ბრინჯი, სანელებლები" },
         en: { title: "Xarcho", desc: "Beef, rice, spices" },
         ru: { title: "Харчо", desc: "Говядина, рис, приправы" }
     },
     {
-        id: 15, category: "soups", price: 14.00, image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=300",
+        id: 15, category: "soups", price: 14.00, image: "MENU FOTO/3 SOUPS/2.jpg",
         ka: { title: "ჩაქაფული ხბოს ხორცით", desc: "ხბოს ხორცი, ტარხუნა, ტყემალი, მწვანილი, ღვინო" },
         en: { title: "Chakapuli with calf meat", desc: "Calf meat, tarragon, tkemali, greens, wine" },
         ru: { title: "Чакапули из теленка", desc: "Мясо теленка, тархун, ткемали, зелень, вино" }
     },
     {
-        id: 16, category: "soups", price: 13.00, image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=300",
+        id: 16, category: "soups", price: 13.00, image: "MENU FOTO/3 SOUPS/3.jpg",
         ka: { title: "ჩიხირთმა", desc: "ქათმის ხორცი, კვერცხი, მწვანილი, ძმარი" },
         en: { title: "Chickirtma", desc: "Chicken, eggs, greens, vinegar" },
         ru: { title: "Чихиртма", desc: "Куриное мясо, яйцо, зелень, уксус" }
     },
     {
-        id: 17, category: "soups", price: 13.00, image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=300",
+        id: 17, category: "soups", price: 13.00, image: "MENU FOTO/3 SOUPS/4.jpg",
         ka: { title: "ქათმის წვნიანი", desc: "ქათმის ფილე, ბოსტნეული" },
         en: { title: "Chicken Soup", desc: "Chicken breast, vegetables" },
         ru: { title: "Суп куриный", desc: "Куриное филе, овощи" }
     },
     {
-        id: 18, category: "soups", price: 13.00, image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=300",
+        id: 18, category: "soups", price: 13.00, image: "MENU FOTO/3 SOUPS/5.jpg",
         ka: { title: "სოკოს წვნიანი", desc: "სოკო, ბოსტნეული" },
         en: { title: "Mushroom Soup", desc: "Mushrooms, vegetables" },
         ru: { title: "Суп грибной", desc: "Грибы, овощи" }
     },
     {
-        id: 19, category: "soups", price: 9.50, image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=300",
+        id: 19, category: "soups", price: 9.50, image: "MENU FOTO/3 SOUPS/6.jpg",
         ka: { title: "ბოსტნეულის წვნიანი", desc: "კარტოფილი, სტაფილო, ბულგარული, მწვანილი" },
         en: { title: "Vegetable soup", desc: "Potatoes, carrots, bulg. pepper, greens" },
         ru: { title: "Овощной суп", desc: "Картофель, морковь, болг. перец, зелень" }
@@ -189,145 +189,145 @@ const menuData = [
 
     // --- ცხელი კერძები (HOT DISHES) ---
     {
-        id: 20, category: "hot", price: 149.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 20, category: "hot", price: 149.00, image: "MENU FOTO/4 HOT DISHES/1.jpg",
         ka: { title: "ხორცის დაფა", desc: "მწვადი ხბოს, ქათმის, ღორის, კუპატი, ქაბაბი, კარტოფილი, ბოსტნეული" },
         en: { title: "Meatboard", desc: "Barbecue veal, chicken, pork, kupati, kebab, potatoes, vegetables" },
         ru: { title: "Мясная доска", desc: "Шашлык телятина, курица, свинина, купаты, кебаб, картофель, овощи" }
     },
     {
-        id: 21, category: "hot", price: 77.00, image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300",
+        id: 21, category: "hot", price: 77.00, image: "MENU FOTO/4 HOT DISHES/2.jpg",
         ka: { title: "მწვადის მიქსი", desc: "ხბო, ღორი, ქათამი, კარტოფილი" },
         en: { title: "Barbecue mix", desc: "Veal, pork, chicken, potatoes" },
         ru: { title: "Шашлычный микс", desc: "Телятина, свинина, курица, картофель" }
     },
     {
-        id: 22, category: "hot", price: 43.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 22, category: "hot", price: 43.00, image: "MENU FOTO/4 HOT DISHES/3.jpg",
         ka: { title: "ხბოს ხორცი თავადურად", desc: "ხბოს ხორცი, კარტოფილი, სოკო, სულგუნი" },
         en: { title: "Lord Veal Meat", desc: "Veal meat, mushrooms, sulguni, potatoes" },
         ru: { title: "Мясо теленка по-Княжески", desc: "Мясо теленка, грибы, сулугуни, картофель" }
     },
     {
-        id: 23, category: "hot", price: 35.00, image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300",
+        id: 23, category: "hot", price: 35.00, image: "MENU FOTO/4 HOT DISHES/4.jpg",
         ka: { title: "ხბოს მწვადი (350 გრ)", desc: "ხბოს მწვადი" },
         en: { title: "Veal Barbecue (350g)", desc: "Veal BBQ" },
         ru: { title: "Телячий шашлык (350г)", desc: "Шашлык из телятины" }
     },
     {
-        id: 24, category: "hot", price: 26.00, image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300",
+        id: 24, category: "hot", price: 26.00, image: "MENU FOTO/4 HOT DISHES/5.jpg",
         ka: { title: "ღორის მწვადი (350 გრ)", desc: "ღორის მწვადი" },
         en: { title: "Pork Barbecue (350g)", desc: "Pork BBQ" },
         ru: { title: "Свиной шашлык (350г)", desc: "Шашлык из свинины" }
     },
     {
-        id: 25, category: "hot", price: 23.00, image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300",
+        id: 25, category: "hot", price: 23.00, image: "MENU FOTO/4 HOT DISHES/6.jpg",
         ka: { title: "ქათმის მწვადი (350 გრ)", desc: "ქათმის მწვადი" },
         en: { title: "Chicken Barbecue (350g)", desc: "Chicken BBQ" },
         ru: { title: "Куриный шашлык (350г)", desc: "Шашлык из курицы" }
     },
     {
-        id: 26, category: "hot", price: 39.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 26, category: "hot", price: 39.00, image: "MENU FOTO/4 HOT DISHES/7.jpg",
         ka: { title: "ოჯახური ხბოს ხორცით", desc: "ხბოს ხორცი, კარტოფილი, ბოსტნეული" },
         en: { title: "Ojakhuri with Veal", desc: "Veal, potatoes, vegetables" },
         ru: { title: "Оджахури с мясом теленка", desc: "Мясо теленка, картофель, овощи" }
     },
     {
-        id: 27, category: "hot", price: 26.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 27, category: "hot", price: 26.00, image: "MENU FOTO/4 HOT DISHES/8.jpg",
         ka: { title: "ოჯახური ღორის ხორცით", desc: "ღორის ხორცი, კარტოფილი, ბოსტნეული" },
         en: { title: "Ojakhuri with Pork", desc: "Pork, potatoes, vegetables" },
         ru: { title: "Оджахури с мясом свинины", desc: "Мясо свинины, картофель, овощи" }
     },
     {
-        id: 28, category: "hot", price: 23.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 28, category: "hot", price: 23.00, image: "MENU FOTO/4 HOT DISHES/9.jpg",
         ka: { title: "ოჯახური ქათმის ხორცით", desc: "ქათმის ხორცი, კარტოფილი, ბოსტნეული" },
         en: { title: "Ojakhuri with Chicken", desc: "Chicken, potatoes, vegetables" },
         ru: { title: "Оджахури с куриным мясом", desc: "Куриное мясо, картофель, овощи" }
     },
     {
-        id: 29, category: "hot", price: 21.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 29, category: "hot", price: 21.00, image: "MENU FOTO/4 HOT DISHES/10.jpg",
         ka: { title: "ოჯახური სოკოთი", desc: "სოკო, კარტოფილი, ბოსტნეული" },
         en: { title: "Ojakhuri with Mushrooms", desc: "Mushrooms, potatoes, vegetables" },
         ru: { title: "Оджахури с грибами", desc: "Грибы, картофель, овощи" }
     },
     {
-        id: 30, category: "hot", price: 15.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 30, category: "hot", price: 15.00, image: "MENU FOTO/4 HOT DISHES/11.jpg",
         ka: { title: "ხბოს ოსტრი", desc: "ხბოს ხორცი" },
         en: { title: "Ostri Calfs", desc: "Veal meat" },
         ru: { title: "Остри из теленка", desc: "Мясо теленка" }
     },
     {
-        id: 31, category: "hot", price: 12.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 31, category: "hot", price: 12.00, image: "MENU FOTO/4 HOT DISHES/12.jpg",
         ka: { title: "ღორის კუჭმაჭი კეცზე", desc: "ღორის კუჭმაჭი" },
         en: { title: "Pork Kuchmachi on a pan", desc: "Pork kuchmachi" },
         ru: { title: "Кучмачи свиной (на кеци)", desc: "Свиной кучмачи" }
     },
     {
-        id: 32, category: "hot", price: 14.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 32, category: "hot", price: 14.00, image: "MENU FOTO/4 HOT DISHES/14.jpg",
         ka: { title: "კუპატი", desc: "კუპატი" },
         en: { title: "Kupati", desc: "Georgian sausage" },
         ru: { title: "Купаты", desc: "Купаты" }
     },
     {
-        id: 33, category: "hot", price: 15.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 33, category: "hot", price: 15.00, image: "MENU FOTO/4 HOT DISHES/15.jpg",
         ka: { title: "ქაბაბი", desc: "ქაბაბი" },
         en: { title: "Kebab", desc: "Kebab" },
         ru: { title: "Кебаб", desc: "Кебаб" }
     },
     {
-        id: 34, category: "hot", price: 26.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 34, category: "hot", price: 26.00, image: "MENU FOTO/4 HOT DISHES/16.jpg",
         ka: { title: "ქართული კოტლეტი", desc: "კოტლეტი, კარტოფილის პიურე, ბოსტნეული" },
         en: { title: "Georgian cutlet", desc: "Beef cutlet, potato puree, vegetables" },
         ru: { title: "Котлета по-грузински", desc: "Котлета говяжья, картофельное пюре, овощи" }
     },
     {
-        id: 35, category: "hot", price: 39.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 35, category: "hot", price: 39.00, image: "MENU FOTO/4 HOT DISHES/17.jpg",
         ka: { title: "ჩახოხბილი", desc: "წიწილა, ბოსტნეულის სოუსი, ნიგოზი" },
         en: { title: "Chakhokhbili", desc: "Chick, vegetables, spices, walnut" },
         ru: { title: "Чахохбили", desc: "Цыпленок, овощной соус, грецкий орех" }
     },
     {
-        id: 36, category: "hot", price: 41.00, image: "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=300",
+        id: 36, category: "hot", price: 41.00, image: "MENU FOTO/4 HOT DISHES/18.jpg",
         ka: { title: "წიწილა შქმერული", desc: "წიწილა, ნაღები, სანელებლები" },
         en: { title: "Chick Shkmeruli", desc: "Chick, sour cream" },
         ru: { title: "Цыпленок по-Шкмерски", desc: "Цыпленок, сливки, специи" }
     },
     {
-        id: 37, category: "hot", price: 43.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 37, category: "hot", price: 43.00, image: "MENU FOTO/4 HOT DISHES/19.jpg",
         ka: { title: "საცივი", desc: "წიწილა, ნიგოზი, სანელებლები" },
         en: { title: "Satsivi", desc: "Chick, walnuts, spices" },
         ru: { title: "Сациви", desc: "Цыпленок, грецкие орехи, специи" }
     },
     {
-        id: 38, category: "hot", price: 27.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 38, category: "hot", price: 27.00, image: "MENU FOTO/4 HOT DISHES/20.jpg",
         ka: { title: "მწყერი (შემწვარი 3 ც.)", desc: "შემწვარი მწყერი" },
         en: { title: "Quail (fried 3 piece)", desc: "Fried quail" },
         ru: { title: "Перепелка (жареная 3 шт.)", desc: "Жареная перепелка" }
     },
     {
-        id: 39, category: "hot", price: 14.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 39, category: "hot", price: 14.00, image: "MENU FOTO/4 HOT DISHES/21.jpg",
         ka: { title: "სოკო კეცზე", desc: "შემწვარი სოკო" },
         en: { title: "Mushrooms on a pan", desc: "Baked mushrooms" },
         ru: { title: "Грибы запеченные на кеци", desc: "Запеченные грибы" }
     },
     {
-        id: 40, category: "hot", price: 16.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 40, category: "hot", price: 16.00, image: "MENU FOTO/4 HOT DISHES/22.jpg",
         ka: { title: "სოკო სულგუნით კეცზე", desc: "სოკო, სულგუნი" },
         en: { title: "Mushrooms with sulguni on a pan", desc: "Mushrooms with sulguni" },
         ru: { title: "Грибы с сулугуни на кеци", desc: "Грибы с сулугуни" }
     },
     {
-        id: 41, category: "hot", price: 14.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 41, category: "hot", price: 14.00, image: "MENU FOTO/4 HOT DISHES/23.jpg",
         ka: { title: "სულგუნი კეცზე", desc: "შემწვარი სულგუნი" },
         en: { title: "Sulguni on a pan", desc: "Melted sulguni" },
         ru: { title: "Сулугуни на кеци", desc: "Запеченный сулугуни" }
     },
     {
-        id: 42, category: "hot", price: 18.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 42, category: "hot", price: 18.00, image: "MENU FOTO/4 HOT DISHES/24.jpg",
         ka: { title: "ლობიო ქოთანში", desc: "ლობიო, მწნილი" },
         en: { title: "Beans in a pot", desc: "Beans, pickles" },
         ru: { title: "Фасоль в горшочке", desc: "Фасоль, соленья" }
     },
     {
-        id: 43, category: "hot", price: 18.00, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=300",
+        id: 43, category: "hot", price: 18.00, image: "MENU FOTO/4 HOT DISHES/25.jpg",
         ka: { title: "აჯაფსანდალი ქოთანში", desc: "აჯაფსანდალი, ყველი" },
         en: { title: "Ajaphsandali in a pot", desc: "Eggplants, potatoes, carrots, tomatoes, herbs, cheese" },
         ru: { title: "Аджапсандали в горшочке", desc: "Баклажаны, картофель, морковь, помидоры, зелень, сыр" }
@@ -335,19 +335,19 @@ const menuData = [
 
     // --- სტეიკი (STEAK) ---
     {
-        id: 44, category: "hot", price: 69.00, image: "https://images.unsplash.com/photo-1558030006-450675393462?w=300",
+        id: 44, category: "steak", price: 69.00, image: "MENU FOTO/5 STEAK/1.jpg",
         ka: { title: "საქონლის სტეიკი", desc: "კარტოფილი ფრი, ბოსტნეული, სოუსი" },
         en: { title: "Beef steak", desc: "French fries, fruit, sauce" },
         ru: { title: "Говяжий стейк", desc: "Картофель фри, овощи, соус" }
     },
     {
-        id: 45, category: "hot", price: 48.00, image: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=300",
+        id: 45, category: "steak", price: 48.00, image: "MENU FOTO/5 STEAK/2.jpg",
         ka: { title: "ღორის სტეიკი", desc: "კარტოფილი ფრი, ბოსტნეული, სოუსი" },
         en: { title: "Pork steak", desc: "French fries, vegetables, sauce" },
         ru: { title: "Свиной стейк", desc: "Картофель фри, овощи, соус" }
     },
     {
-        id: 46, category: "hot", price: 43.00, image: "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=300",
+        id: 46, category: "steak", price: 43.00, image: "MENU FOTO/5 STEAK/3.jpg",
         ka: { title: "ქათმის სტეიკი", desc: "კარტოფილი ფრი, ბოსტნეული, სოუსი" },
         en: { title: "Chicken steak", desc: "French fries, vegetables, sauce" },
         ru: { title: "Куриный стейк", desc: "Картофель фри, овощи, соус" }
@@ -355,13 +355,13 @@ const menuData = [
 
     // --- თევზეული (FISH DISHES) ---
     {
-        id: 47, category: "fish", price: 24.00, image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=300",
+        id: 47, category: "fish", price: 24.00, image: "MENU FOTO/6 FISH/1.jpg",
         ka: { title: "კალმახი (შემწვარი)", desc: "შემწვარი კალმახი" },
         en: { title: "Trout (fried)", desc: "Fried trout" },
         ru: { title: "Форель (жареная)", desc: "Жареная форель" }
     },
     {
-        id: 48, category: "fish", price: 41.00, image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=300",
+        id: 48, category: "fish", price: 41.00, image: "MENU FOTO/6 FISH/2.jpg",
         ka: { title: "ორაგულის სტეიკი", desc: "კარტოფილი ფრი, სოკო, ბოსტნეული" },
         en: { title: "Oraguli steak", desc: "French fries, mushrooms, vegetables" },
         ru: { title: "Стейк из Орагули", desc: "Картофель фри, грибы, овощи" }
@@ -369,19 +369,19 @@ const menuData = [
 
     // --- ხინკალი (KHINKALI) ---
     {
-        id: 49, category: "khinkali", price: 1.70, image: "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=300",
+        id: 49, category: "khinkali", price: 1.70, image: "MENU FOTO/7 XINKALI/khinkali.jpg",
         ka: { title: "ხინკალი \"ქალაქური\"", desc: "საქონლის ხორცი" },
         en: { title: "Khinkali \"Kalakuri\"", desc: "Beef" },
         ru: { title: "Хинкали \"Калакури\"", desc: "Говядина" }
     },
     {
-        id: 50, category: "khinkali", price: 1.95, image: "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=300",
+        id: 50, category: "khinkali", price: 1.95, image: "MENU FOTO/7 XINKALI/download.jpg",
         ka: { title: "ხინკალი \"თუშური\"", desc: "ცხვრის ხორცი, დაკეპილი" },
         en: { title: "Khinkali \"Tushuri\"", desc: "Sheep, chopped" },
         ru: { title: "Хинкали \"Тушури\"", desc: "Баранина, рубленая" }
     },
     {
-        id: 51, category: "khinkali", price: 1.75, image: "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=300",
+        id: 51, category: "khinkali", price: 1.75, image: "MENU FOTO/7 XINKALI/images.jpg",
         ka: { title: "ხინკალი ყველის", desc: "ყველი" },
         en: { title: "Khinkali with cheese", desc: "Cheese" },
         ru: { title: "Хинкали с сыром", desc: "Сыр" }
@@ -389,19 +389,19 @@ const menuData = [
 
     // --- გარნირი (SIDE DISHES) ---
     {
-        id: 52, category: "sides", price: 8.00, image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=300",
+        id: 52, category: "sides", price: 8.00, image: "MENU FOTO/8 SIDE DISHES/1.jpg",
         ka: { title: "კარტოფილი ფრი", desc: "კარტოფილი ფრი" },
         en: { title: "French Fries", desc: "French fries" },
         ru: { title: "Картофель фри", desc: "Картофель фри" }
     },
     {
-        id: 53, category: "sides", price: 15.00, image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=300",
+        id: 53, category: "sides", price: 15.00, image: "MENU FOTO/8 SIDE DISHES/2.jpg",
         ka: { title: "კარტოფილი მექსიკურად", desc: "მექსიკური კარტოფილი" },
         en: { title: "Mexican Potatoes", desc: "Mexican style potatoes" },
         ru: { title: "Картофель по-мексикански", desc: "Картофель по-мексикански" }
     },
     {
-        id: 54, category: "sides", price: 12.00, image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=300",
+        id: 54, category: "sides", price: 12.00, image: "MENU FOTO/8 SIDE DISHES/3.jpg",
         ka: { title: "კარტოფილი ოჯახურად", desc: "ოჯახური კარტოფილი" },
         en: { title: "Potatoes in a family", desc: "Home style potatoes" },
         ru: { title: "Картофель по домашнему", desc: "Картофель по-домашнему" }
@@ -409,19 +409,19 @@ const menuData = [
 
     // --- საუზმე (BREAKFAST) ---
     {
-        id: 55, category: "hot", price: 24.00, image: "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=300",
+        id: 55, category: "hot", price: 24.00, image: "MENU FOTO/9 BREAKFAST/1.jpg",
         ka: { title: "საუზმე მიქსი", desc: "კვერცხი, ყველი, ბოსტნეული, კარტოფილი, ქათმის ფილე" },
         en: { title: "Breakfast mix", desc: "Eggs, cheese, vegetables, potatoes, chicken breasts" },
         ru: { title: "Завтрак микс", desc: "Яйцо, сыр, овощи, картофель, куриное филе" }
     },
     {
-        id: 56, category: "hot", price: 11.00, image: "https://images.unsplash.com/photo-1510693206972-df098062cb71?w=300",
+        id: 56, category: "hot", price: 11.00, image: "MENU FOTO/9 BREAKFAST/2.jpg",
         ka: { title: "ომლეტი", desc: "ომლეტი" },
         en: { title: "Omlet", desc: "Omelette" },
         ru: { title: "Омлет", desc: "Омлет" }
     },
     {
-        id: 57, category: "hot", price: 9.00, image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=300",
+        id: 57, category: "hot", price: 9.00, image: "MENU FOTO/9 BREAKFAST/3.jpg",
         ka: { title: "გლაზუნია", desc: "ერბოკვერცხი" },
         en: { title: "Glazunia (Egg)", desc: "Fried eggs" },
         ru: { title: "Глазунья", desc: "Яичница глазунья" }
@@ -461,49 +461,49 @@ const menuData = [
 
     // --- ცომეული (PASTRY) ---
     {
-        id: 63, category: "pastry", price: 18.00, image: "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=300",
+        id: 63, category: "pastry", price: 18.00, image: "MENU FOTO/10 PASTRY/1.jpg",
         ka: { title: "ხაჭაპური იმერული", desc: "იმერული ხაჭაპური" },
         en: { title: "Imeretiankhachapuri", desc: "Imeretian Khachapuri" },
         ru: { title: "Хачапури по-имеретински", desc: "Хачапури по-имеретински" }
     },
     {
-        id: 64, category: "pastry", price: 22.00, image: "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=300",
+        id: 64, category: "pastry", price: 22.00, image: "MENU FOTO/10 PASTRY/2.jpg",
         ka: { title: "ხაჭაპური \"მეგრული\"", desc: "მეგრული ხაჭაპური" },
         en: { title: "Megreliankhachapuri", desc: "Megrelian Khachapuri" },
         ru: { title: "Хачапури по-мегрелски", desc: "Хачапури по-мегрельски" }
     },
     {
-        id: 65, category: "pastry", price: 26.00, image: "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=300",
+        id: 65, category: "pastry", price: 26.00, image: "MENU FOTO/10 PASTRY/3.jpg",
         ka: { title: "ხაჭაპური \"ლაზური\"", desc: "ლაზური ხაჭაპური" },
         en: { title: "Khachapuri \"Lazuri\"", desc: "Lazuri Khachapuri" },
         ru: { title: "Хачапури \"Лазури\"", desc: "Хачапури \"Лазури\"" }
     },
     {
-        id: 66, category: "pastry", price: 20.00, image: "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=300",
+        id: 66, category: "pastry", price: 20.00, image: "MENU FOTO/10 PASTRY/4.jpg",
         ka: { title: "ხაჭაპური შამფურზე", desc: "ხაჭაპური შამფურზე" },
         en: { title: "Khachapuri on a spit", desc: "Khachapuri on a spit" },
         ru: { title: "Хачапури на шампуре", desc: "Хачапури на шампуре" }
     },
     {
-        id: 67, category: "pastry", price: 19.00, image: "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=300",
+        id: 67, category: "pastry", price: 19.00, image: "MENU FOTO/10 PASTRY/5.jpg",
         ka: { title: "აჭარული ხაჭაპური", desc: "აჭარული ხაჭაპური" },
         en: { title: "Adjaretian khachapuri", desc: "Adjarian Khachapuri" },
         ru: { title: "Хачапури по-аджарски", desc: "Хачапури по-аджарски" }
     },
     {
-        id: 68, category: "pastry", price: 16.00, image: "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=300",
+        id: 68, category: "pastry", price: 16.00, image: "MENU FOTO/10 PASTRY/6.jpg",
         ka: { title: "ლობიანი", desc: "ლობიანი" },
         en: { title: "Lobiani", desc: "Lobiani" },
         ru: { title: "Лобиани", desc: "Лобиани" }
     },
     {
-        id: 69, category: "pastry", price: 2.50, image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=300",
+        id: 69, category: "pastry", price: 2.50, image: "MENU FOTO/10 PASTRY/7.jpg",
         ka: { title: "პური \"შოთი\"", desc: "შოთის პური" },
         en: { title: "Bread \"Shoti\"", desc: "Shoti bread" },
         ru: { title: "Хлеб \"Шоти\"", desc: "Хлеб \"Шоти\"" }
     },
     {
-        id: 70, category: "pastry", price: 2.50, image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=300",
+        id: 70, category: "pastry", price: 2.50, image: "MENU FOTO/10 PASTRY/8.jpg",
         ka: { title: "მჭადი", desc: "მჭადი" },
         en: { title: "Mchadi (corn cake)", desc: "Cornbread" },
         ru: { title: "Мчади (кукурузная лепешка)", desc: "Кукурузная лепешка" }
@@ -511,31 +511,31 @@ const menuData = [
 
     // --- პიცა (PIZZA) ---
     {
-        id: 71, category: "pizza", price: 21.00, image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300",
+        id: 71, category: "pizza", price: 21.00, image: "MENU FOTO/11 PIZZA/1.jpg",
         ka: { title: "პიცა „პეპერონი“", desc: "ტომატის სოუსი, ძეხვი, პომიდორი, ყველი" },
         en: { title: "Pepperoni Pizza", desc: "Tomato sauce, sausage, tomato, cheese" },
         ru: { title: "Пицца Пепперони", desc: "Томатный соус, колбаса, помидор, сыр" }
     },
     {
-        id: 72, category: "pizza", price: 20.00, image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300",
+        id: 72, category: "pizza", price: 20.00, image: "MENU FOTO/11 PIZZA/2.jpg",
         ka: { title: "პიცა „მარგარიტა“", desc: "ტომატის სოუსი, პომიდორი, ყველი" },
         en: { title: "Margarita Pizza", desc: "Tomato sauce, tomato, cheese" },
         ru: { title: "Пицца Маргарита", desc: "Томатный соус, помидор, сыр" }
     },
     {
-        id: 73, category: "pizza", price: 24.00, image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300",
+        id: 73, category: "pizza", price: 24.00, image: "MENU FOTO/11 PIZZA/3.jpg",
         ka: { title: "პიცა „რეჯინა“", desc: "ნივრის სოუსი, ლორი, სოკო, მჟავე კიტრი, ყველი" },
         en: { title: "Regina Pizza", desc: "Garlic sauce, ham, mushrooms, pickled cucumber, cheese" },
         ru: { title: "Пицца Реджина", desc: "Чесночный соус, ветчина, грибы, соленый огурец, сыр" }
     },
     {
-        id: 74, category: "pizza", price: 24.00, image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300",
+        id: 74, category: "pizza", price: 24.00, image: "MENU FOTO/11 PIZZA/4.jpg",
         ka: { title: "პიცა „კრემონა“", desc: "ნაღების სოუსი, ქათმის ხორცი, პომიდორი, სოკო" },
         en: { title: "Cremona Pizza", desc: "Cream sauce, chicken, tomato, mushrooms" },
         ru: { title: "Пицца Кремона", desc: "Сливочный соус, курица, помидор, грибы" }
     },
     {
-        id: 75, category: "pizza", price: 19.00, image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300",
+        id: 75, category: "pizza", price: 19.00, image: "MENU FOTO/11 PIZZA/5.jpg",
         ka: { title: "პიცა „პრიმავერა“", desc: "ტომატის სოუსი, პომიდორი, სოკო, ბულგარული" },
         en: { title: "Primavera Pizza", desc: "Tomato sauce, tomato, mushrooms, bell pepper" },
         ru: { title: "Пицца Примавера", desc: "Томатный соус, помидор, грибы, болгарский перец" }
@@ -543,37 +543,37 @@ const menuData = [
 
     // --- დესერტი (DESSERTS) ---
     {
-        id: 76, category: "desserts", price: 9.00, image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=300",
+        id: 76, category: "desserts", price: 9.00, image: "MENU FOTO/12 DESSERTS/1.jpg",
         ka: { title: "ნამცხვარი „ბრაუნი“", desc: "ბრაუნი" },
         en: { title: "Brownie Cake", desc: "Brownie cake" },
         ru: { title: "Пирожное Брауни", desc: "Брауни" }
     },
     {
-        id: 77, category: "desserts", price: 8.00, image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=300",
+        id: 77, category: "desserts", price: 8.00, image: "MENU FOTO/12 DESSERTS/2.jpg",
         ka: { title: "ნამცხვარი „ლეტიცია“", desc: "ლეტიცია" },
         en: { title: "Leticia Cake", desc: "Leticia cake" },
         ru: { title: "Пирожное Летиция", desc: "Летиция" }
     },
     {
-        id: 78, category: "desserts", price: 7.00, image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=300",
+        id: 78, category: "desserts", price: 7.00, image: "MENU FOTO/12 DESSERTS/3.jpg",
         ka: { title: "ნამცხვარი „ფახლავა“", desc: "ფახლავა" },
         en: { title: "Baklava Cake", desc: "Baklava" },
         ru: { title: "Пахлава", desc: "Пахлава" }
     },
     {
-        id: 79, category: "desserts", price: 7.00, image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=300",
+        id: 79, category: "desserts", price: 7.00, image: "MENU FOTO/12 DESSERTS/4.jpg",
         ka: { title: "ნამცხვარი „ზღაპარი“", desc: "ზღაპარი" },
         en: { title: "Fairy Tale Cake", desc: "Fairy tale cake" },
         ru: { title: "Пирожное Сказка", desc: "Сказка" }
     },
     {
-        id: 80, category: "desserts", price: 6.00, image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300",
+        id: 80, category: "desserts", price: 6.00, image: "MENU FOTO/12 DESSERTS/5.jpg",
         ka: { title: "ნაყინი", desc: "ნაყინი" },
         en: { title: "Ice Cream", desc: "Ice cream" },
         ru: { title: "Мороженое", desc: "Мороженое" }
     },
     {
-        id: 81, category: "desserts", price: 8.00, image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300",
+        id: 81, category: "desserts", price: 8.00, image: "MENU FOTO/12 DESSERTS/6.jpg",
         ka: { title: "ნაყინი შოკოლადით", desc: "ნაყინი შოკოლადით" },
         en: { title: "Ice Cream with Chocolate", desc: "Ice cream with chocolate" },
         ru: { title: "Мороженое с шоколадом", desc: "Мороженое с шоколадом" }
