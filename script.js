@@ -131,7 +131,7 @@ const menuData = [
         ru: { title: "Зеленый салат", desc: "Листья салата, огурец, зеленый лук, маслины" }
     },
     {
-        id: 11, category: "salads", price: 15.00, image: "MENU FOTO/1 SALADS/4.jpg",,
+        id: 11, category: "salads", price: 15.00, image: "MENU FOTO/1 SALADS/4.jpg",
         ka: { title: "სალათი ქართული", desc: "კიტრი, პომიდორი, სალათის ფურცლები, ხახვი, სულგუნი, ნიგოზი" },
         en: { title: "Georgian Salad", desc: "Cucumber, tomato, lettuce, onions, sulguni, walnuts" },
         ru: { title: "Салат Грузинский", desc: "Огурцы, помидоры, салат, лук, сулугуни, грецкий орех" }
