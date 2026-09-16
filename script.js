@@ -69,43 +69,43 @@ const translations = {
 const menuData = [
     // --- ცივი კერძები (COLD DISHES) ---
     {
-        id: 1, category: "cold", price: 9.50, image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=300",
+        id: 1, category: "cold", price: 9.50, image: "MENU FOTO/1 COLD DISHES/1.jpg",
         ka: { title: "ბადრიჯნის ფხალი", desc: "ბადრიჯანი ნიგვზით" },
         en: { title: "Eggplant Pkhali", desc: "Eggplant with walnuts" },
         ru: { title: "Пхали из баклажан", desc: "Баклажаны с грецкими орехами" }
     },
     {
-        id: 2, category: "cold", price: 9.00, image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=300",
+        id: 2, category: "cold", price: 9.00, image: "MENU FOTO/1 COLD DISHES/2.jpg",
         ka: { title: "ისპანახის ფხალი", desc: "ისპანახი ნიგვზით" },
         en: { title: "Spinach Pkhsali", desc: "Spinach with walnuts" },
         ru: { title: "Пхали из шпината", desc: "Шпинат с грецкими орехами" }
     },
     {
-        id: 3, category: "cold", price: 8.00, image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=300",
+        id: 3, category: "cold", price: 8.00, image: "MENU FOTO/1 COLD DISHES/3.jpg",
         ka: { title: "წითელი ფხალი", desc: "ჭარხალი ნიგვზით" },
         en: { title: "Beetroot Pkhali", desc: "Beetroot with walnuts" },
         ru: { title: "Пхали из свеклы", desc: "Свекла с грецкими орехами" }
     },
     {
-        id: 4, category: "cold", price: 7.00, image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=300",
+        id: 4, category: "cold", price: 7.00, image: "MENU FOTO/1 COLD DISHES/4.jpg",
         ka: { title: "სტაფილოს ფხალი", desc: "სტაფილო ნიგვზით" },
         en: { title: "Carrot Pkhali", desc: "Carrot with walnuts" },
         ru: { title: "Пхали из моркови", desc: "Морковь с грецкими орехами" }
     },
     {
-        id: 5, category: "cold", price: 12.00, image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=300",
+        id: 5, category: "cold", price: 12.00, image: "MENU FOTO/1 COLD DISHES/5.jpg",
         ka: { title: "ყველი სულგუნი", desc: "სულგუნი" },
         en: { title: "Sulguni Cheese", desc: "Sulguni cheese" },
         ru: { title: "Сыр сулугуни", desc: "Сыр сулугуни" }
     },
     {
-        id: 6, category: "cold", price: 9.00, image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=300",
+        id: 6, category: "cold", price: 9.00, image: "MENU FOTO/1 COLD DISHES/6.jpg",
         ka: { title: "ყველი იმერული", desc: "იმერული ყველი" },
         en: { title: "Imeretian Cheese", desc: "Imeretian cheese" },
         ru: { title: "Сыр имеретинский", desc: "Сыр имеретинский" }
     },
     {
-        id: 7, category: "cold", price: 21.00, image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=300",
+        id: 7, category: "cold", price: 21.00, image: "MENU FOTO/1 COLD DISHES/7.jpg",
         ka: { title: "ყველის ასორტი", desc: "სულგუნი, შებოლილი სულგუნი, იმერული ყველი" },
         en: { title: "Cheese assortment", desc: "Sulguni, smoked sulguni, Imeretian cheese" },
         ru: { title: "Сырное ассорти", desc: "Сулугуни, копченый сулугуни, имеретинский сыр" }
@@ -113,37 +113,37 @@ const menuData = [
 
     // --- სალათები (SALADS) ---
     {
-        id: 8, category: "salads", price: 9.00, image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300",
+        id: 8, category: "salads", price: 9.00, image: "MENU FOTO/1 SALADS/1.jpg",
         ka: { title: "სალათი კიტრი-პომიდვრის", desc: "კიტრი, პომიდორი, მწვანილი, ხახვი" },
         en: { title: "Vegetable salad", desc: "Cucumbers, tomatoes, herbs, onions" },
         ru: { title: "Овощной салат", desc: "Огурцы, помидоры, зелень, лук" }
     },
     {
-        id: 9, category: "salads", price: 11.00, image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300",
+        id: 9, category: "salads", price: 11.00, image: "MENU FOTO/1 SALADS/2.jpg",
         ka: { title: "სალათი კიტრი-პომიდვრის ნიგვზით", desc: "კიტრი, პომიდორი, მწვანილი, ხახვი, ნიგოზი" },
         en: { title: "Vegetable salad with nuts", desc: "Cucumbers, tomatoes, herbs, onions, walnuts" },
         ru: { title: "Овощной салат с орехами", desc: "Огурцы, помидоры, зелень, лук, грецкий орех" }
     },
     {
-        id: 10, category: "salads", price: 8.00, image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300",
+        id: 10, category: "salads", price: 8.00, image: "MENU FOTO/1 SALADS/3.jpg",
         ka: { title: "მწვანე სალათი", desc: "სალათის ფურცლები, კიტრი, მწვანე ხახვი, ზეთისხილი" },
         en: { title: "Green salad", desc: "Lettuce, cucumber, green onion, olive oil" },
         ru: { title: "Зеленый салат", desc: "Листья салата, огурец, зеленый лук, маслины" }
     },
     {
-        id: 11, category: "salads", price: 15.00, image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300",
+        id: 11, category: "salads", price: 15.00, image: "MENU FOTO/1 SALADS/4.jpg",,
         ka: { title: "სალათი ქართული", desc: "კიტრი, პომიდორი, სალათის ფურცლები, ხახვი, სულგუნი, ნიგოზი" },
         en: { title: "Georgian Salad", desc: "Cucumber, tomato, lettuce, onions, sulguni, walnuts" },
         ru: { title: "Салат Грузинский", desc: "Огурцы, помидоры, салат, лук, сулугуни, грецкий орех" }
     },
     {
-        id: 12, category: "salads", price: 14.00, image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300",
+        id: 12, category: "salads", price: 14.00, image: "MENU FOTO/1 SALADS/5.jpg",
         ka: { title: "სალათი ქათმის", desc: "ქათმის ფილე, ბულგარული, ხახვი, მაიონეზი" },
         en: { title: "Chicken Salad", desc: "Chicken breasts, peppers, onions, mayonnaise" },
         ru: { title: "Куриный салат", desc: "Куриное филе, болг. перец, лук, майонез" }
     },
     {
-        id: 13, category: "salads", price: 15.00, image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300",
+        id: 13, category: "salads", price: 15.00, image: "MENU FOTO/1 SALADS/6.jpg",
         ka: { title: "სალათი ტიფლისი", desc: "ქათმის ფილე, სულგუნი, პომიდორი, სალათის ფურცლები, მაიონეზი" },
         en: { title: "Tiflisi Salad", desc: "Chicken breasts, sulguni, tomato, lettuce, mayonnaise" },
         ru: { title: "Салат Тифлиси", desc: "Куриное филе, сулугуни, помидор, салат, майонез" }
