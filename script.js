@@ -1,7 +1,7 @@
 // 1. ინტერფეისის და კატეგორიების თარგმანები
 const translations = {
     ka: {
-        table: "მაგიდა #"
+        table: "მაგიდა #",
         searchPlaceholder: "მოძებნე კერძი ან სასმელი...",
         cartTitle: "თქვენი შეკვეთა",
         total: "სულ:",
