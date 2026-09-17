@@ -22,15 +22,14 @@ const translations = {
             pizza: "პიცა",
             sauces: "სოუსი",
             desserts: "დესერტი",
-            hotdrinks‎: "ცხელი სასმელები",
+            hotdrinks: "ცხელი სასმელები",
             beer: "ლუდი",
             homewine: "ოჯახის ღვინო",
-            whitewine‎: "თეთრი ღვინო",
-            redwine‎: "წითელი ღვინო",
+            whitewine: "თეთრი ღვინო",
+            redwine: "წითელი ღვინო",
             vodka: "არაყი",
-            cognak‎: "კონიაკი",
+            cognak: "კონიაკი",
             drinks: "გამაგრილებელი სასმელები"
-            
         }
     },
     en: {
@@ -55,6 +54,13 @@ const translations = {
             pizza: "Pizza",
             sauces: "Sauces",
             desserts: "Desserts",
+            hotdrinks: "Hot Drinks",
+            beer: "Beer",
+            homewine: "House Wine",
+            whitewine: "White Wine",
+            redwine: "Red Wine",
+            vodka: "Vodka",
+            cognak: "Cognac",
             drinks: "Cold Drinks"
         }
     },
@@ -80,6 +86,13 @@ const translations = {
             pizza: "Пицца",
             sauces: "Соусы",
             desserts: "Десерты",
+            hotdrinks: "Горячие напитки",
+            beer: "Пиво",
+            homewine: "Домашнее вино",
+            whitewine: "Белое вино",
+            redwine: "Красное вино",
+            vodka: "Водка",
+            cognak: "Коньяк",
             drinks: "Прохладительные напитки"
         }
     }
