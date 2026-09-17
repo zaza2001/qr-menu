@@ -692,12 +692,7 @@ const menuData = [
     },
 
     // --- გამაგრილებელი სასმელები (REFRESHING DRINKS) ---
-    {
-        id: 95, category: "drinks", price: 4.00, image: "MENU FOTO/1.jpg,
-        ka: { title: "ბორჯომი (0.5 ლ)", desc: "მინერალური წყალი" },
-        en: { title: "Borjomi (0.5 l)", desc: "Mineral water" },
-        ru: { title: "Боржоми (0.5 л)", desc: "Минеральная вода" }
-    },
+    
     {
         id: 96, category: "drinks", price: 2.50, image: "MENU FOTO/2.jpg,
         ka: { title: "წყალი (0.5 ლ)", desc: "წყაროს წყალი" },
