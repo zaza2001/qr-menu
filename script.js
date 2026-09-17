@@ -1,7 +1,7 @@
 // 1. ინტერფეისის და კატეგორიების თარგმანები
 const translations = {
     ka: {
-        table: "მაგიდა #4",
+        table: "მაგიდა #",
         searchPlaceholder: "მოძებნე კერძი ან სასმელი...",
         cartTitle: "თქვენი შეკვეთა",
         total: "სულ:",
@@ -33,7 +33,7 @@ const translations = {
         }
     },
     en: {
-        table: "Table #4",
+        table: "Table #",
         searchPlaceholder: "Search food or drink...",
         cartTitle: "Your Order",
         total: "Total:",
@@ -65,7 +65,7 @@ const translations = {
         }
     },
     ru: {
-        table: "Стол #4",
+        table: "Стол #",
         searchPlaceholder: "Поиск блюд и напитков...",
         cartTitle: "Ваш заказ",
         total: "Итого:",
@@ -692,39 +692,44 @@ const menuData = [
     },
 
     // --- გამაგრილებელი სასმელები (REFRESHING DRINKS) ---
-    
     {
-        id: 96, category: "drinks", price: 2.50, image: "MENU FOTO/2.jpg,
+        id: 95, category: "drinks", price: 4.00, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
+        ka: { title: "ბორჯომი (0.5 ლ)", desc: "მინერალური წყალი" },
+        en: { title: "Borjomi (0.5 l)", desc: "Mineral water" },
+        ru: { title: "Боржоми (0.5 л)", desc: "Минеральная вода" }
+    },
+    {
+        id: 96, category: "drinks", price: 2.50, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
         ka: { title: "წყალი (0.5 ლ)", desc: "წყაროს წყალი" },
         en: { title: "Water (0.5 l)", desc: "Spring water" },
         ru: { title: "Вода (0.5 л)", desc: "Родниковая вода" }
     },
     {
-        id: 97, category: "drinks", price: 4.00, image: "MENU FOTO/3.jpg,
+        id: 97, category: "drinks", price: 4.00, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
         ka: { title: "კოკა-კოლა (0.5 ლ)", desc: "კოკა-კოლა" },
         en: { title: "Coca-Cola (0.5 l)", desc: "Coca-Cola" },
         ru: { title: "Кока-Кола (0.5 л)", desc: "Кока-Кола" }
     },
     {
-        id: 98, category: "drinks", price: 4.00, image: "MENU FOTO/4.jpg,
+        id: 98, category: "drinks", price: 4.00, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
         ka: { title: "ფანტა (0.5 ლ)", desc: "ფანტა" },
         en: { title: "Fanta (0.5 l)", desc: "Fanta" },
         ru: { title: "Фанта (0.5 л)", desc: "Фанта" }
     },
     {
-        id: 99, category: "drinks", price: 4.00, image: "MENU FOTO/5.jpg,
+        id: 99, category: "drinks", price: 4.00, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
         ka: { title: "სპრაიტი (0.5 ლ)", desc: "სპრაიტი" },
         en: { title: "Sprite (0.5 l)", desc: "Sprite" },
         ru: { title: "Спрайт (0.5 л)", desc: "Спрайт" }
     },
     {
-        id: 100, category: "drinks", price: 5.00, image: "MENU FOTO/6.jpg,
+        id: 100, category: "drinks", price: 5.00, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
         ka: { title: "ლიმონათი (0.5 ლ)", desc: "ქართული ლიმონათი" },
         en: { title: "Lemonade (0.5 l)", desc: "Georgian lemonade" },
         ru: { title: "Лимонад (0.5 л)", desc: "Грузинский лимонад" }
     },
     {
-        id: 101, category: "drinks", price: 18.00, image: "https://images.unsplash.com/photo-1613478223719-2ab802602423?w=300",
+        id: 101, category: "drinks", price: 18.00, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
         ka: { title: "წვენი (1 ლ)", desc: "ნატურალური წვენი" },
         en: { title: "Juice (1 l)", desc: "Natural juice" },
         ru: { title: "Сок (1 л)", desc: "Натуральный сок" }
@@ -736,7 +741,7 @@ const menuData = [
         ru: { title: "Сок (0.25 л)", desc: "Натуральный сок" }
     },
     {
-        id: 103, category: "drinks", price: 18.00, image: "MENU FOTO/7.jpg,
+        id: 103, category: "drinks", price: 18.00, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
         ka: { title: "ხილის კომპოტი (1 ლ)", desc: "სახლის კომპოტი" },
         en: { title: "Fruit Compote (1 l)", desc: "Homemade compote" },
         ru: { title: "Фруктовый компот (1 л)", desc: "Домашний компот" }
@@ -744,37 +749,37 @@ const menuData = [
 
     // --- ლუდი (BEER) ---
     {
-        id: 104, category: "beer", price: 7.00, image: "MENU FOTO/8.jpg,
+        id: 104, category: "beer", price: 7.00, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
         ka: { title: "ლუდი „ნატახტარი“ (0.5 ლ)", desc: "ბოთლის ლუდი" },
         en: { title: "Natakhtari Beer (0.5 l)", desc: "Bottled beer" },
         ru: { title: "Пиво Натахтари (0.5 л)", desc: "Бутылочное пиво" }
     },
     {
-        id: 105, category: "beer", price: 7.50, image: "MENU FOTO/9.jpg,
+        id: 105, category: "beer", price: 7.50, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
         ka: { title: "ლუდი „ქარვა“ (0.5 ლ)", desc: "ბოთლის ლუდი" },
         en: { title: "Karva Beer (0.5 l)", desc: "Bottled beer" },
         ru: { title: "Пиво Карва (0.5 л)", desc: "Бутылочное пиво" }
     },
     {
-        id: 106, category: "beer", price: 7.50, image: "MENU FOTO/10.jpg,
+        id: 106, category: "beer", price: 7.50, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
         ka: { title: "ლუდი „კასრის“ (0.5 ლ)", desc: "ბოთლის ლუდი" },
         en: { title: "Kasris Beer (0.5 l)", desc: "Bottled beer" },
         ru: { title: "Пиво Касрис (0.5 л)", desc: "Бутылочное пиво" }
     },
     {
-        id: 107, category: "beer", price: 7.50, image: "MENU FOTO/10.jpg,
+        id: 107, category: "beer", price: 7.50, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
         ka: { title: "ლუდი „კასრის“ მსუბუქი (0.5 ლ)", desc: "მსუბუქი ლუდი" },
         en: { title: "Kasris Light Beer (0.5 l)", desc: "Light beer" },
         ru: { title: "Пиво Касрис светлое (0.5 л)", desc: "Светлое пиво" }
     },
     {
-        id: 108, category: "beer", price: 8.00, image:"MENU FOTO/11.jpg,
+        id: 108, category: "beer", price: 8.00, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
         ka: { title: "ლუდი „ექსტრა“ (0.5 ლ)", desc: "ბოთლის ლუდი" },
         en: { title: "Extra Beer (0.5 l)", desc: "Bottled beer" },
         ru: { title: "Пиво Экстра (0.5 л)", desc: "Бутылочное пиво" }
     },
     {
-        id: 109, category: "beer", price: 11.00, image: "MENU FOTO/12.jpg,
+        id: 109, category: "beer", price: 11.00, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
         ka: { title: "ლუდი „ტაატი“ (კრაფტი 0.5 ლ)", desc: "კრაფტ ლუდი" },
         en: { title: "Taati Craft Beer (0.5 l)", desc: "Craft beer" },
         ru: { title: "Крафтовое пиво Таати (0.5 л)", desc: "Крафтовое пиво" }
