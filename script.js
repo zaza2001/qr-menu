@@ -22,7 +22,15 @@ const translations = {
             pizza: "პიცა",
             sauces: "სოუსი",
             desserts: "დესერტი",
+            hotdrinks‎: "ცხელი სასმელები",
+            beer: "ლუდი",
+            homewine: "ოჯახის ღვინო",
+            whitewine‎: "თეთრი ღვინო",
+            redwine‎: "წითელი ღვინო",
+            vodka: "არაყი",
+            cognak‎: "კონიაკი",
             drinks: "გამაგრილებელი სასმელები"
+            
         }
     },
     en: {
@@ -592,79 +600,79 @@ const menuData = [
 
     // --- ცხელი სასმელები (HOT DRINKS) ---
     {
-        id: 82, category: "hot_drinks", price: 3.50, image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=300",
+        id: 82, category: "hotdrinks", price: 3.50, image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=300",
         ka: { title: "ჩაი (შავი)", desc: "შავი ჩაი" },
         en: { title: "Black Tea", desc: "Black tea" },
         ru: { title: "Черный чай", desc: "Черный чай" }
     },
     {
-        id: 83, category: "hot_drinks", price: 4.00, image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=300",
+        id: 83, category: "hotdrinks", price: 4.00, image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=300",
         ka: { title: "ჩაი ლიმონით", desc: "ჩაი ლიმონით" },
         en: { title: "Tea with Lemon", desc: "Tea with lemon" },
         ru: { title: "Чай с лимоном", desc: "Чай с лимоном" }
     },
     {
-        id: 84, category: "hot_drinks", price: 4.00, image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=300",
+        id: 84, category: "hotdrinks", price: 4.00, image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=300",
         ka: { title: "ჩაი მწვანე", desc: "მწვანე ჩაი" },
         en: { title: "Green Tea", desc: "Green tea" },
         ru: { title: "Зеленый чай", desc: "Зеленый чай" }
     },
     {
-        id: 85, category: "hot_drinks", price: 4.50, image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=300",
+        id: 85, category: "hotdrinks", price: 4.50, image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=300",
         ka: { title: "ჩაი ხილის", desc: "ხილის ჩაი" },
         en: { title: "Fruit Tea", desc: "Fruit tea" },
         ru: { title: "Фруктовый чай", desc: "Фруктовый чай" }
     },
     {
-        id: 86, category: "hot_drinks", price: 14.00, image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=300",
+        id: 86, category: "hotdrinks", price: 14.00, image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=300",
         ka: { title: "ჩაი ჩაიდნით (შავი)", desc: "შავი ჩაი ჩაიდნით" },
         en: { title: "Teapot (Black)", desc: "Black tea pot" },
         ru: { title: "Чай в чайнике (черный)", desc: "Черный чай в чайнике" }
     },
     {
-        id: 87, category: "hot_drinks", price: 15.00, image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=300",
+        id: 87, category: "hotdrinks", price: 15.00, image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=300",
         ka: { title: "ჩაი ჩაიდნით (შავი ბერგამოტით)", desc: "ბერგამოტის ჩაი ჩაიდნით" },
         en: { title: "Teapot (Earl Grey)", desc: "Black tea with bergamot" },
         ru: { title: "Чай в чайнике (бергамот)", desc: "Черный чай с бергамотом" }
     },
     {
-        id: 88, category: "hot_drinks", price: 15.00, image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=300",
+        id: 88, category: "hotdrinks", price: 15.00, image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=300",
         ka: { title: "ჩაი ჩაიდნით (მწვანე)", desc: "მწვანე ჩაი ჩაიდნით" },
         en: { title: "Teapot (Green)", desc: "Green tea pot" },
         ru: { title: "Чай в чайнике (зеленый)", desc: "Зеленый чай в чайнике" }
     },
     {
-        id: 89, category: "hot_drinks", price: 17.00, image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=300",
+        id: 89, category: "hotdrinks", price: 17.00, image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=300",
         ka: { title: "ჩაი ჩაიდნით (ქართული კენკრა)", desc: "კენკრის ჩაი ჩაიდნით" },
         en: { title: "Teapot (Georgian Berry)", desc: "Georgian berry tea pot" },
         ru: { title: "Чай в чайнике (грузинские ягоды)", desc: "Грузинский ягодный чай" }
     },
     {
-        id: 90, category: "hot_drinks", price: 3.50, image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=300",
+        id: 90, category: "hotdrinks", price: 3.50, image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=300",
         ka: { title: "ყავა (უალი)", desc: "ხსნადი ყავა" },
         en: { title: "Coffee (Instant)", desc: "Instant coffee" },
         ru: { title: "Растворимый кофе", desc: "Растворимый кофе" }
     },
     {
-        id: 91, category: "hot_drinks", price: 5.00, image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=300",
+        id: 91, category: "hotdrinks", price: 5.00, image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=300",
         ka: { title: "ყავა ესპრესო", desc: "ესპრესო" },
         en: { title: "Espresso", desc: "Espresso" },
         ru: { title: "Эспрессо", desc: "Эспрессо" }
     },
     {
-        id: 92, category: "hot_drinks", price: 5.00, image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=300",
+        id: 92, category: "hotdrinks", price: 5.00, image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=300",
         ka: { title: "ყავა ამერიკანო", desc: "ამერიკანო" },
         en: { title: "Americano", desc: "Americano" },
         ru: { title: "Американо", desc: "Американо" }
     },
     {
-        id: 93, category: "hot_drinks", price: 9.00, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
+        id: 93, category: "hotdrinks", price: 9.00, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
         ka: { title: "ყავა ცივი", desc: "ცივი ყავა" },
         en: { title: "Iced Coffee", desc: "Iced coffee" },
         ru: { title: "Холодный кофе", desc: "Холодный кофе" }
     },
     {
-        id: 94, category: "hot_drinks", price: 11.00, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
+        id: 94, category: "hotdrinks", price: 11.00, image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300",
         ka: { title: "ყავა ცივი, ნაყინით", desc: "ცივი ყავა ნაყინით" },
         en: { title: "Iced Coffee with Ice Cream", desc: "Iced coffee with ice cream" },
         ru: { title: "Холодный кофе с мороженым", desc: "Холодный кофе с мороженым" }
@@ -766,37 +774,37 @@ const menuData = [
 
     // --- ოჯახის ღვინო (HOME WINE) ---
     {
-        id: 110, category: "alcohol", price: 24.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 110, category: "homewine", price: 24.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ღვინო ოჯახის „ცოლიკაური“ 0.750 ლ", desc: "თეთრი მშრალი" },
         en: { title: "Home Wine Tsolikouri 0.75 l", desc: "White dry" },
         ru: { title: "Домашнее вино Цоликоури 0.75 л", desc: "Белое сухое" }
     },
     {
-        id: 111, category: "alcohol", price: 8.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 111, category: "homewine", price: 8.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ღვინო ოჯახის „ცოლიკაური“ 0.250 ლ", desc: "თეთრი მშრალი" },
         en: { title: "Home Wine Tsolikouri 0.25 l", desc: "White dry" },
         ru: { title: "Домашнее вино Цоликоури 0.25 л", desc: "Белое сухое" }
     },
     {
-        id: 112, category: "alcohol", price: 33.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 112, category: "homewine", price: 33.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ღვინო ოჯახის „თავკვერი“ 0.750 ლ", desc: "წითელი ნახევრად მშრალი" },
         en: { title: "Home Wine Tavkveri 0.75 l", desc: "Red semi-dry" },
         ru: { title: "Домашнее вино Тавквери 0.75 л", desc: "Красное полусухое" }
     },
     {
-        id: 113, category: "alcohol", price: 11.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 113, category: "homewine", price: 11.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ღვინო ოჯახის „თავკვერი“ 0.250 ლ", desc: "წითელი ნახევრად მშრალი" },
         en: { title: "Home Wine Tavkveri 0.25 l", desc: "Red semi-dry" },
         ru: { title: "Домашнее вино Тавквери 0.25 л", desc: "Красное полусухое" }
     },
     {
-        id: 114, category: "alcohol", price: 48.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 114, category: "homewine", price: 48.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ღვინო ოჯახის „ოჯალეში“ 0.750 ლ", desc: "წითელი ნახევრად ტკბილი" },
         en: { title: "Home Wine Ojaleshi 0.75 l", desc: "Red semi-sweet" },
         ru: { title: "Домашнее вино Оджалеши 0.75 л", desc: "Красное полусладкое" }
     },
     {
-        id: 115, category: "alcohol", price: 16.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 115, category: "homewine", price: 16.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ღვინო ოჯახის „ოჯალეში“ 0.250 ლ", desc: "წითელი ნახევრად ტკბილი" },
         en: { title: "Home Wine Ojaleshi 0.25 l", desc: "Red semi-sweet" },
         ru: { title: "Домашнее вино Оджалеши 0.25 л", desc: "Красное полусладкое" }
@@ -804,61 +812,61 @@ const menuData = [
 
     // --- თეთრი ღვინო (WHITE WINE) ---
     {
-        id: 116, category: "alcohol", price: 42.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 116, category: "whitewine‎", price: 42.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ალაზნის ველი (თეთრი) 0.750 ლ", desc: "თეთრი ნახევრად ტკბილი" },
         en: { title: "Alazani Valley (White) 0.75 l", desc: "White semi-sweet" },
         ru: { title: "Алазанская Долина (белое) 0.75 л", desc: "Белое полусладкое" }
     },
     {
-        id: 117, category: "alcohol", price: 14.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 117, category: "whitewine‎", price: 14.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ალაზნის ველი (თეთრი) 0.250 ლ", desc: "თეთრი ნახევრად ტკბილი" },
         en: { title: "Alazani Valley (White) 0.25 l", desc: "White semi-sweet" },
         ru: { title: "Алазанская Долина (белое) 0.25 л", desc: "Белое полусладкое" }
     },
     {
-        id: 118, category: "alcohol", price: 48.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 118, category: "whitewine‎", price: 48.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ტვიში 0.750 ლ", desc: "თეთრი ნახევრად ტკბილი" },
         en: { title: "Tvishi 0.75 l", desc: "White semi-sweet" },
         ru: { title: "Твиши 0.75 л", desc: "Белое полусладкое" }
     },
     {
-        id: 119, category: "alcohol", price: 16.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 119, category: "whitewine‎", price: 16.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ტვიში 0.250 ლ", desc: "თეთრი ნახევრად ტკბილი" },
         en: { title: "Tvishi 0.25 l", desc: "White semi-sweet" },
         ru: { title: "Твиши 0.25 л", desc: "Белое полусладкое" }
     },
     {
-        id: 120, category: "alcohol", price: 48.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 120, category: "whitewine‎", price: 48.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ქისი 0.750 ლ", desc: "თეთრი მშრალი" },
         en: { title: "Kisi 0.75 l", desc: "White dry" },
         ru: { title: "Киси 0.75 л", desc: "Белое сухое" }
     },
     {
-        id: 121, category: "alcohol", price: 16.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 121, category: "whitewine‎", price: 16.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ქისი 0.250 ლ", desc: "თეთრი მშრალი" },
         en: { title: "Kisi 0.25 l", desc: "White dry" },
         ru: { title: "Киси 0.25 л", desc: "Белое сухое" }
     },
     {
-        id: 122, category: "alcohol", price: 45.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 122, category: "whitewine‎", price: 45.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "მანავი 0.750 ლ", desc: "თეთრი მშრალი" },
         en: { title: "Manavi 0.75 l", desc: "White dry" },
         ru: { title: "Манави 0.75 л", desc: "Белое сухое" }
     },
     {
-        id: 123, category: "alcohol", price: 15.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 123, category: "whitewine‎", price: 15.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "მანავი 0.250 ლ", desc: "თეთრი მშრალი" },
         en: { title: "Manavi 0.25 l", desc: "White dry" },
         ru: { title: "Манави 0.25 л", desc: "Белое сухое" }
     },
     {
-        id: 124, category: "alcohol", price: 39.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 124, category: "whitewine‎", price: 39.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "წინანდალი 0.750 ლ", desc: "თეთრი მშრალი" },
         en: { title: "Tsinandali 0.75 l", desc: "White dry" },
         ru: { title: "Цинандали 0.75 л", desc: "Белое сухое" }
     },
     {
-        id: 125, category: "alcohol", price: 13.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 125, category: "whitewine‎", price: 13.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "წინანდალი 0.250 ლ", desc: "თეთრი მშრალი" },
         en: { title: "Tsinandali 0.25 l", desc: "White dry" },
         ru: { title: "Цинандали 0.25 л", desc: "Белое сухое" }
@@ -866,85 +874,85 @@ const menuData = [
 
     // --- წითელი ღვინო (RED WINE) ---
     {
-        id: 126, category: "alcohol", price: 75.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 126, category: "redwine‎", price: 75.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ხვანჭკარა 0.750 ლ", desc: "წითელი ნახევრად ტკბილი" },
         en: { title: "Khvanchkara 0.75 l", desc: "Red semi-sweet" },
         ru: { title: "Хванчкара 0.75 л", desc: "Красное полусладкое" }
     },
     {
-        id: 127, category: "alcohol", price: 25.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 127, category: "redwine‎", price: 25.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ხვანჭკარა 0.250 ლ", desc: "წითელი ნახევრად ტკბილი" },
         en: { title: "Khvanchkara 0.25 l", desc: "Red semi-sweet" },
         ru: { title: "Хванчкара 0.25 л", desc: "Красное полусладкое" }
     },
     {
-        id: 128, category: "alcohol", price: 57.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 128, category: "redwine‎", price: 57.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ქინძმარაული 0.750 ლ", desc: "წითელი ნახევრად ტკბილი" },
         en: { title: "Kindzmarauli 0.75 l", desc: "Red semi-sweet" },
         ru: { title: "Киндзмараули 0.75 л", desc: "Красное полусладкое" }
     },
     {
-        id: 129, category: "alcohol", price: 19.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 129, category: "redwine‎", price: 19.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ქინძმარაული 0.250 ლ", desc: "წითელი ნახევრად ტკბილი" },
         en: { title: "Kindzmarauli 0.25 l", desc: "Red semi-sweet" },
         ru: { title: "Киндзмараули 0.25 л", desc: "Красное полусладкое" }
     },
     {
-        id: 130, category: "alcohol", price: 57.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 130, category: "redwine‎", price: 57.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "მუკუზანი 0.750 ლ", desc: "წითელი მშრალი" },
         en: { title: "Mukuzani 0.75 l", desc: "Red dry" },
         ru: { title: "Мукузани 0.75 л", desc: "Красное сухое" }
     },
     {
-        id: 131, category: "alcohol", price: 19.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 131, category: "redwine‎", price: 19.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "მუკუზანი 0.250 ლ", desc: "წითელი მშრალი" },
         en: { title: "Mukuzani 0.25 l", desc: "Red dry" },
         ru: { title: "Мукузани 0.25 л", desc: "Красное сухое" }
     },
     {
-        id: 132, category: "alcohol", price: 45.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 132, category: "redwine‎", price: 45.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ახაშენი 0.750 ლ", desc: "წითელი ნახევრად ტკბილი" },
         en: { title: "Akhasheni 0.75 l", desc: "Red semi-sweet" },
         ru: { title: "Ахашени 0.75 л", desc: "Красное полусладкое" }
     },
     {
-        id: 133, category: "alcohol", price: 15.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 133, category: "redwine‎", price: 15.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ახაშენი 0.250 ლ", desc: "წითელი ნახევრად ტკბილი" },
         en: { title: "Akhasheni 0.25 l", desc: "Red semi-sweet" },
         ru: { title: "Ахашени 0.25 л", desc: "Красное полусладкое" }
     },
     {
-        id: 134, category: "alcohol", price: 42.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 134, category: "redwine‎", price: 42.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ალაზნის ველი (წითელი) 0.750 ლ", desc: "წითელი ნახევრად ტკბილი" },
         en: { title: "Alazani Valley (Red) 0.75 l", desc: "Red semi-sweet" },
         ru: { title: "Алазанская Долина (красное) 0.75 л", desc: "Красное полусладкое" }
     },
     {
-        id: 135, category: "alcohol", price: 14.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 135, category: "redwine‎", price: 14.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ალაზნის ველი (წითელი) 0.250 ლ", desc: "წითელი ნახევრად ტკბილი" },
         en: { title: "Alazani Valley (Red) 0.25 l", desc: "Red semi-sweet" },
         ru: { title: "Алазанская Долина (красное) 0.25 л", desc: "Красное полусладкое" }
     },
     {
-        id: 136, category: "alcohol", price: 45.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 136, category: "redwine‎", price: 45.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "საფერავი 0.750 ლ", desc: "წითელი მშრალი" },
         en: { title: "Saperavi 0.75 l", desc: "Red dry" },
         ru: { title: "Саперави 0.75 л", desc: "Красное сухое" }
     },
     {
-        id: 137, category: "alcohol", price: 15.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 137, category: "redwine‎", price: 15.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "საფერავი 0.250 ლ", desc: "წითელი მშრალი" },
         en: { title: "Saperavi 0.25 l", desc: "Red dry" },
         ru: { title: "Саперави 0.25 л", desc: "Красное сухое" }
     },
     {
-        id: 138, category: "alcohol", price: 45.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 138, category: "redwine‎", price: 45.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "საფერავი როზე 0.750 ლ", desc: "ვარდისფერი მშრალი" },
         en: { title: "Saperavi Rose 0.75 l", desc: "Rose dry" },
         ru: { title: "Саперави Розе 0.75 л", desc: "Розовое сухое" }
     },
     {
-        id: 139, category: "alcohol", price: 15.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+        id: 139, category: "redwine‎", price: 15.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "საფერავი როზე 0.250 ლ", desc: "ვარდისფერი მშრალი" },
         en: { title: "Saperavi Rose 0.25 l", desc: "Rose dry" },
         ru: { title: "Саперави Розе 0.25 л", desc: "Розовое сухое" }
@@ -952,61 +960,61 @@ const menuData = [
 
     // --- არაყი და ჭაჭა (VODKA & CHACHA) ---
     {
-        id: 140, category: "alcohol", price: 35.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 140, category: "vodka‎‎", price: 35.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "Gomi Prestige 0.5 l", desc: "არაყი" },
         en: { title: "Gomi Prestige 0.5 l", desc: "Vodka" },
         ru: { title: "Гоми Престиж 0.5 л", desc: "Водка" }
     },
     {
-        id: 141, category: "alcohol", price: 3.50, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 141, category: "vodka‎‎", price: 3.50, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "Gomi Prestige 0.05 l", desc: "არაყი" },
         en: { title: "Gomi Prestige 0.05 l", desc: "Vodka" },
         ru: { title: "Гоми Престиж 0.05 л", desc: "Водка" }
     },
     {
-        id: 142, category: "alcohol", price: 32.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 142, category: "vodka‎", price: 32.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "Gomi Original 0.5 l", desc: "არაყი" },
         en: { title: "Gomi Original 0.5 l", desc: "Vodka" },
         ru: { title: "Гоми Оригинал 0.5 л", desc: "Водка" }
     },
     {
-        id: 143, category: "alcohol", price: 3.20, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 143, category: "vodka‎", price: 3.20, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "Gomi Original 0.05 l", desc: "არაყი" },
         en: { title: "Gomi Original 0.05 l", desc: "Vodka" },
         ru: { title: "Гоми Оригинал 0.05 л", desc: "Водка" }
     },
     {
-        id: 144, category: "alcohol", price: 30.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 144, category: "vodka‎", price: 30.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "Gomi Lux 0.5 l", desc: "არაყი" },
         en: { title: "Gomi Lux 0.5 l", desc: "Vodka" },
         ru: { title: "Гоми Люкс 0.5 л", desc: "Водка" }
     },
     {
-        id: 145, category: "alcohol", price: 3.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 145, category: "vodka‎", price: 3.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "Gomi Lux 0.05 l", desc: "არაყი" },
         en: { title: "Gomi Lux 0.05 l", desc: "Vodka" },
         ru: { title: "Гоми Люкс 0.05 л", desc: "Водка" }
     },
     {
-        id: 146, category: "alcohol", price: 30.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 146, category: "vodka‎", price: 30.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "ჭაჭა (ოჯახის) 0.5 l", desc: "ოჯახის ჭაჭა" },
         en: { title: "Home Chacha 0.5 l", desc: "Homemade chacha" },
         ru: { title: "Чача домашняя 0.5 л", desc: "Домашняя чача" }
     },
     {
-        id: 147, category: "alcohol", price: 3.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 147, category: "vodka‎", price: 3.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "ჭაჭა (ოჯახის) 0.05 l", desc: "ოჯახის ჭაჭა" },
         en: { title: "Home Chacha 0.05 l", desc: "Homemade chacha" },
         ru: { title: "Чача домашняя 0.05 л", desc: "Домашняя чача" }
     },
     {
-        id: 148, category: "alcohol", price: 35.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 148, category: "vodka‎", price: 35.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "ჭაჭა (ოჯახის, მუხის) 0.5 l", desc: "მუხის ჭაჭა" },
         en: { title: "Oak Chacha 0.5 l", desc: "Oak aged chacha" },
         ru: { title: "Чача на дубе 0.5 л", desc: "Выдержанная в дубе чача" }
     },
     {
-        id: 149, category: "alcohol", price: 3.50, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 149, category: "vodka‎", price: 3.50, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "ჭაჭა (ოჯახის, მუხის) 0.05 l", desc: "მუხის ჭაჭა" },
         en: { title: "Oak Chacha 0.05 l", desc: "Oak aged chacha" },
         ru: { title: "Чача на дубе 0.05 л", desc: "Выдержанная в дубе чача" }
@@ -1014,61 +1022,61 @@ const menuData = [
 
     // --- კონიაკი (COGNAC) ---
     {
-        id: 150, category: "alcohol", price: 50.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 150, category: "cognak‎", price: 50.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "დუგლაძე 3* 0.5 l", desc: "კონიაკი 3 ვარსკვლავიანი" },
         en: { title: "Dugladze 3* 0.5 l", desc: "Cognac 3 stars" },
         ru: { title: "Дугладзе 3* 0.5 л", desc: "Коньяк 3 звезды" }
     },
     {
-        id: 151, category: "alcohol", price: 5.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 151, category: "cognak‎", price: 5.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "დუგლაძე 3* 0.05 l", desc: "კონიაკი 3 ვარსკვლავიანი" },
         en: { title: "Dugladze 3* 0.05 l", desc: "Cognac 3 stars" },
         ru: { title: "Дугладзе 3* 0.05 л", desc: "Коньяк 3 звезды" }
     },
     {
-        id: 152, category: "alcohol", price: 55.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 152, category: "cognak‎", price: 55.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "დუგლაძე 5* 0.5 l", desc: "კონიაკი 5 ვარსკვლავიანი" },
         en: { title: "Dugladze 5* 0.5 l", desc: "Cognac 5 stars" },
         ru: { title: "Дугладзе 5* 0.5 л", desc: "Коньяк 5 звезд" }
     },
     {
-        id: 153, category: "alcohol", price: 5.50, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 153, category: "cognak‎", price: 5.50, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "დუგლაძე 5* 0.05 l", desc: "კონიაკი 5 ვარსკვლავიანი" },
         en: { title: "Dugladze 5* 0.05 l", desc: "Cognac 5 stars" },
         ru: { title: "Дугладзе 5* 0.05 л", desc: "Коньяк 5 звезд" }
     },
     {
-        id: 154, category: "alcohol", price: 55.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 154, category: "cognak‎", price: 55.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "სარაჯიშვილი 3* 0.5 l", desc: "კონიაკი 3 ვარსკვლავიანი" },
         en: { title: "Sarajishvili 3* 0.5 l", desc: "Cognac 3 stars" },
         ru: { title: "Сараджишвили 3* 0.5 л", desc: "Коньяк 3 звезды" }
     },
     {
-        id: 155, category: "alcohol", price: 5.50, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 155, category: "cognak‎", price: 5.50, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "სარაჯიშვილი 3* 0.05 l", desc: "კონიაკი 3 ვარსკვლავიანი" },
         en: { title: "Sarajishvili 3* 0.05 l", desc: "Cognac 3 stars" },
         ru: { title: "Сараджишвили 3* 0.05 л", desc: "Коньяк 3 звезды" }
     },
     {
-        id: 156, category: "alcohol", price: 65.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 156, category: "cognak‎", price: 65.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "სარაჯიშვილი 5* 0.5 l", desc: "კონიაკი 5 ვარსკვლავიანი" },
         en: { title: "Sarajishvili 5* 0.5 l", desc: "Cognac 5 stars" },
         ru: { title: "Сараджишвили 5* 0.5 л", desc: "Коньяк 5 звезд" }
     },
     {
-        id: 157, category: "alcohol", price: 6.50, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 157, category: "cognak‎", price: 6.50, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "სარაჯიშვილი 5* 0.05 l", desc: "კონიაკი 5 ვარსკვლავიანი" },
         en: { title: "Sarajishvili 5* 0.05 l", desc: "Cognac 5 stars" },
         ru: { title: "Сараджишвили 5* 0.05 л", desc: "Коньяк 5 звезд" }
     },
     {
-        id: 158, category: "alcohol", price: 40.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 158, category: "cognak‎", price: 40.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "ჩამოსასხმელი კონიაკი 0.5 l", desc: "ჩამოსასხმელი კონიაკი" },
         en: { title: "Draught Cognac 0.5 l", desc: "Draught cognac" },
         ru: { title: "Разливной коньяк 0.5 л", desc: "Разливной коньяк" }
     },
     {
-        id: 159, category: "alcohol", price: 4.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
+        id: 159, category: "cognak‎", price: 4.00, image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=300",
         ka: { title: "ჩამოსასხმელი კონიაკი 0.05 l", desc: "ჩამოსასხმელი კონიაკი" },
         en: { title: "Draught Cognac 0.05 l", desc: "Draught cognac" },
         ru: { title: "Разливной коньяк 0.05 л", desc: "Разливной коньяк" }
