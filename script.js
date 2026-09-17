@@ -1,7 +1,7 @@
 // 1. ინტერფეისის და კატეგორიების თარგმანები
 const translations = {
     ka: {
-        table: "მაგიდა #",
+        table: "მაგიდა #4",
         searchPlaceholder: "მოძებნე კერძი ან სასმელი...",
         cartTitle: "თქვენი შეკვეთა",
         total: "სულ:",
@@ -33,7 +33,7 @@ const translations = {
         }
     },
     en: {
-        table: "Table #",
+        table: "Table #4",
         searchPlaceholder: "Search food or drink...",
         cartTitle: "Your Order",
         total: "Total:",
@@ -65,7 +65,7 @@ const translations = {
         }
     },
     ru: {
-        table: "Стол #",
+        table: "Стол #4",
         searchPlaceholder: "Поиск блюд и напитков...",
         cartTitle: "Ваш заказ",
         total: "Итого:",
