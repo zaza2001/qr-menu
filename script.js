@@ -831,6 +831,12 @@ const menuData = [
         ru: { title: "Алазанская Долина (белое) 0.75 л", desc: "Белое полусладкое" }
     },
     {
+    id: 116, category: "whitewine", price: 42.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
+    ka: { title: "ალაზნის ველი (თეთრი) 0.750 ლ", desc: "თეთრი ნახევრად ტკბილი" },
+    en: { title: "Alazani Valley (White) 0.75 l", desc: "White semi-sweet" },
+    ru: { title: "Алазанская Долина (белое) 0.75 л", desc: "Белое полусладкое" }
+},
+    {
         id: 117, category: "whitewine‎", price: 14.00, image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=300",
         ka: { title: "ალაზნის ველი (თეთრი) 0.250 ლ", desc: "თეთრი ნახევრად ტკბილი" },
         en: { title: "Alazani Valley (White) 0.25 l", desc: "White semi-sweet" },
