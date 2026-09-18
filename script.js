@@ -824,7 +824,7 @@ const menuData = [
     },
 
     // --- თეთრი ღვინო (WHITE WINE) ---
-   [
+   
     {
         id: 116, 
         category: "whitewine", 
@@ -1227,7 +1227,6 @@ const menuData = [
         en: { title: "Draught Cognac 0.05 l", desc: "Draught cognac" },
         ru: { title: "Разливной коньяк 0.05 л", desc: "Разливной коньяк" }
     }
-]
 ];
 // 3. მდგომარეობის ცვლადები
 let currentLang = 'ka';
