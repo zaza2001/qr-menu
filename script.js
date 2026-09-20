@@ -1228,10 +1228,15 @@ const menuData = [
         ru: { title: "Разливной коньяк 0.05 л", desc: "Разливной коньяк" }
     }
 ];
-// 3. მდგომარეობის ცვლადები
+// 1. ტელეგრამის ბოტის მონაცემები
+const TELEGRAM_BOT_TOKEN = '8668919731:AAG2D0G_BGaxuCVbk6cdsoriuxY-aldcfT4';
+const TELEGRAM_CHAT_ID = '7033349411';
+
+// 2. მდგომარეობის ცვლადები
 let currentLang = 'ka';
 let activeCategory = 'all';
 let cart = [];
+let tableNumber = ''; // მაგიდის ნომრის შესანახი ცვლადი
 
 // DOM ელემენტები
 const menuContainer = document.getElementById('menuContainer');
@@ -1245,14 +1250,29 @@ const totalAmountElement = document.getElementById('totalAmount');
 const cartCountElement = document.getElementById('cartCount');
 const langSelect = document.getElementById('langSelect');
 
+// 3. საიტის ჩართვისთანავე მაგიდის ნომრის მოთხოვნა
+function initTableNumber() {
+    let input = prompt("გთხოვთ შეიყვანოთ მაგიდის ნომერი:", "1");
+    tableNumber = input ? input.trim() : 'ელექტრონული';
+    updateTableUI();
+}
+
+// მაგიდის ნომრის ვიზუალიზაცია საიტზე
+function updateTableUI() {
+    const tableEl = document.getElementById('tableText');
+    if (tableEl) {
+        const t = (translations && translations[currentLang]) ? translations[currentLang].table : 'მაგიდა #';
+        tableEl.textContent = `${t} ${tableNumber}`;
+    }
+}
+
 // 4. ენის ცვლილების ფუნქცია
 function changeAppLanguage(lang) {
     currentLang = lang;
     const t = translations[lang];
 
-    // ტექსტების უსაფრთხო განახლება (თუ ელემენტი არსებობს DOM-ში)
-    const tableEl = document.getElementById('tableText');
-    if (tableEl) tableEl.textContent = t.table;
+    // ტექსტების უსაფრთხო განახლება
+    updateTableUI();
 
     const cartTitleEl = document.getElementById('cartTitle');
     if (cartTitleEl) cartTitleEl.textContent = t.cartTitle;
@@ -1288,7 +1308,6 @@ function renderCategoryButtons() {
     });
 }
 
-// 6. მენიუს რენდერი
 // 6. მენიუს რენდერინგი
 function renderMenu(items) {
     if (!menuContainer) return;
@@ -1464,7 +1483,7 @@ function changeQuantity(id, change) {
     updateCartUI();
 }
 
-// 9. Event Listener-ები
+// 10. Event Listener-ები
 if (langSelect) {
     langSelect.addEventListener('change', (e) => {
         changeAppLanguage(e.target.value);
@@ -1495,21 +1514,16 @@ if (closeCart && cartModal) {
     closeCart.addEventListener('click', () => cartModal.classList.remove('open'));
 }
 
-// საწყისი ჩატვირთვა
-changeAppLanguage('ka');
-// ტელეგრამის ბოტის მონაცემები
-const TELEGRAM_BOT_TOKEN = '8668919731:AAG2D0G_BGaxuCVbk6cdsoriuxY-aldcfT4';
-const TELEGRAM_CHAT_ID = '7033349411';
-
+// 11. შეკვეთის გაგზავნა Telegram-ში
 document.getElementById('checkoutBtn').addEventListener('click', () => {
     if (cart.length === 0) {
         alert("კალათა ცარიელია!");
         return;
     }
 
-    // შეკვეთის ტექსტის აწყობა
+    // შეკვეთის ტექსტის აწყობა დინამიური მაგიდის ნომრით
     let message = `<b>🚨 ახალი შეკვეთა!</b>\n`;
-    message += `<b>📌 მაგიდა:</b> #4\n\n`;
+    message += `<b>📌 მაგიდა:</b> #${tableNumber}\n\n`;
     message += `<b>🛒 შეკვეთილი კერძები:</b>\n`;
 
     let totalSum = 0;
@@ -1520,7 +1534,10 @@ document.getElementById('checkoutBtn').addEventListener('click', () => {
         message += `• ${itemLangData.title} x ${item.quantity} - ${itemTotal.toFixed(2)} ₾\n`;
     });
 
-    message += `\n<b>💰 სულ გადასახდელი: ${totalSum.toFixed(2)} ₾</b>`;
+    const tax = totalSum * 0.10;
+    const grandTotal = totalSum + tax;
+
+    message += `\n<b>💰 სულ გადასახდელი (ტაქსის ჩათვლით): ${grandTotal.toFixed(2)} ₾</b>`;
 
     // Telegram API-ზე გაგზავნა
     fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
@@ -1538,7 +1555,7 @@ document.getElementById('checkoutBtn').addEventListener('click', () => {
     .then(data => {
         if (data.ok) {
             alert("შეკვეთა წარმატებით გაიგზავნა!");
-            cart = []; // კალათის გასუფთავება
+            cart = []; 
             updateCartUI();
             cartModal.classList.remove('open');
         } else {
@@ -1550,3 +1567,7 @@ document.getElementById('checkoutBtn').addEventListener('click', () => {
         alert("ქსელური შეცდომა.");
     });
 });
+
+// საწყისი ჩატვირთვა: ჯერ მოითხოვს მაგიდის ნომერს, მერე ტვირთავს ენასა და მენიუს
+initTableNumber();
+changeAppLanguage('ka');
