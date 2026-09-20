@@ -1252,7 +1252,11 @@ const langSelect = document.getElementById('langSelect');
 
 // 3. საიტის ჩართვისთანავე მაგიდის ნომრის მოთხოვნა
 function initTableNumber() {
-    let input = prompt("გთხოვთ შეიყვანოთ მაგიდის ნომერი:", "1");
+   const promptMessages = {
+        ka: "გთხოვთ შეიყვანოთ მაგიდის ნომერი:",
+        en: "Please enter your table number:",
+        ru: "Пожалуйста, введите номер вашего столика:"
+    };
     tableNumber = input ? input.trim() : 'ელექტრონული';
     updateTableUI();
 }
