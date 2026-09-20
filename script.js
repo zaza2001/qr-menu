@@ -1344,7 +1344,7 @@ function renderMenu(items) {
                     ${isKhinkali ? `
                         <div class="khinkali-qty-selector">
                             <button class="qty-btn" onclick="adjustKhinkaliQty(${dish.id}, -1)">-</button>
-                            <input type="number" id="khinkali-input-${dish.id}" value="10" min="1" class="khinkali-qty-input">
+                            <input type="number" id="khinkali-input-${dish.id}" value="5" min="5" class="khinkali-qty-input">
                             <button class="qty-btn" onclick="adjustKhinkaliQty(${dish.id}, 1)">+</button>
                             <button class="add-btn" onclick="addKhinkaliToCart(${dish.id})">
                                 <i class="fa-solid fa-plus"></i>
