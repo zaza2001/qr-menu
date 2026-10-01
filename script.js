@@ -1516,11 +1516,15 @@ if (closeCart && cartModal) {
 }
 
 // 11. შეკვეთის გაგზავნა Telegram-ში
+// 11. შეკვეთის გაგზავნა Telegram-ში
 document.getElementById('checkoutBtn').addEventListener('click', () => {
     if (cart.length === 0) {
         alert("კალათა ცარიელია!");
         return;
     }
+
+    // მომხმარებლის შენიშვნის ამოღება
+    const orderNote = document.getElementById('orderNote').value.trim();
 
     // შეკვეთის ტექსტის აწყობა დინამიური მაგიდის ნომრით
     let message = `<b>🚨 ახალი შეკვეთა!</b>\n`;
@@ -1540,6 +1544,11 @@ document.getElementById('checkoutBtn').addEventListener('click', () => {
 
     message += `\n<b>💰 სულ გადასახდელი (ტაქსის ჩათვლით): ${grandTotal.toFixed(2)} ₾</b>`;
 
+    // თუ მომხმარებელმა ჩაწერა შენიშვნა, ვამატებთ ტელეგრამის შეტყობინებას
+    if (orderNote) {
+        message += `\n\n<b>💬 შენიშვნა:</b> <i>${orderNote}</i>`;
+    }
+
     // Telegram API-ზე გაგზავნა
     fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
         method: 'POST',
@@ -1557,6 +1566,7 @@ document.getElementById('checkoutBtn').addEventListener('click', () => {
         if (data.ok) {
             alert("შეკვეთა წარმატებით გაიგზავნა!");
             cart = []; 
+            document.getElementById('orderNote').value = ''; // ველის გასუფთავება
             updateCartUI();
             cartModal.classList.remove('open');
         } else {
@@ -1568,7 +1578,6 @@ document.getElementById('checkoutBtn').addEventListener('click', () => {
         alert("ქსელური შეცდომა.");
     });
 });
-
 // საწყისი ჩატვირთვა: ჯერ მოითხოვს მაგიდის ნომერს, მერე ტვირთავს ენასა და მენიუს
 initTableNumber();
 changeAppLanguage('ka');
